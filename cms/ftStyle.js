@@ -1768,7 +1768,6 @@
 				'o-video': '4.1.10',
 				'o-share': '6.5.0',
 				'o-toggle': '1.2.1',
-				'o-cookie-message': '4.7.3',
 				'o-autoinit': '1.5.1',
 			}),
 			n(68);
@@ -1783,7 +1782,6 @@
 			'o-video': n(140),
 			'o-share': n(148),
 			'o-toggle': n(29),
-			'o-cookie-message': n(150),
 			'o-autoinit': n(155),
 		};
 		window.Origami = o;
