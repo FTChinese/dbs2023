@@ -239,31 +239,7 @@
       </div><a class="herobanner__footer scroll-down__button" href="#section01"><i class="icon icon-arrow-down"></i></a>
       <div class="herobanner__img" style="background-image: url(&quot;https://www.ft.com/partnercontent/dbs/wealth/assets/images/herobanner-hub-global.jpg&quot;); transform: matrix(1, 0, 0, 1, 0, 0);"></div>
     </div>
-    <div class="herobanner herobanner--full herobanner--center herobanner--parallax tab__hero" id="heroasia">
-      <div class="lang-toggle">
-        <ul> 
-          <li class="lang-toggle__wrap">
-            <div class="lang-toggle__btn"><span class="vh">Select languages</span><i class="icon icon-lang"></i></div>
-            <ul class="lang-list">
-              <li class="lang-list__item"><a class="current" href="javascript:;" title="English"><i class="icon icon-eng"></i><span class="vh">English</span></a>
-              </li>
-              <li class="lang-list__item"><a href="/hub-global-sc.html#asia" title="Simplified Chinese"><i class="icon icon-chs"></i><span class="vh">Simplified Chinese</span></a>
-              </li>
-              <li class="lang-list__item"><a href="/hub-global-tc.html#asia" title="Traditional Chinese"><i class="icon icon-cht"></i><span class="vh">Traditional Chinese</span></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="herobanner__content">
-        <div class="container-lg">
-          <h1 class="herobanner__title">Family offices in a changing world</h1>
-          <h5 class="herobanner__desc">How the next generation are helping their families navigate the future</h5>
-        </div>
-      </div><a class="herobanner__footer scroll-down__button" href="#section01"><i class="icon icon-arrow-down"></i></a>
-      <div class="herobanner__img" style="background-image: url(&quot;https://www.ft.com/partnercontent/dbs/wealth/assets/images/herobanner-hub.jpg&quot;); transform: translate(0%, -25%) translate3d(0px, 0px, 0px);"></div>
-    </div>
-    <section id="section01"></section>
+	<section id="section01"></section>
     <section class="bg-grey">
       <div class="tabs">
         <ul class="tab">
@@ -584,39 +560,7 @@
         };
       }
     
-      function oTrackinginit() {
-        // oTracking
-        var oTracking = Origami["o-tracking"];
-        var parent = document.querySelector('meta[name="parent"]');
-    
-        var config_data = {
-          server: "https://spoor-api.ft.com/px.gif",
-          context: {
-            product: "paid-post",
-            content: {
-              title: document.querySelector("title").textContent,
-              parent: parent ? parent.getAttribute("content") : null,
-            },
-          },
-          user: {
-            ft_session: oTracking.utils.getValueFromCookie(
-              /FTSession=([^;]+)/
-            ),
-          },
-        };
-        // Setup
-        oTracking.init(config_data);
-        // Automatically track clicks
-        oTracking.click.init("cta");
-        // Page
-        oTracking.page({
-          content: {
-            asset_type: "page",
-          },
-        });
-    
-      }
-    
+ 
     
       if (cutsTheMustard) {
         var o = document.createElement("script");
