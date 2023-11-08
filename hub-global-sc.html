@@ -970,9 +970,9 @@ Math.floor(j/h),b[d]._progress_markers[b[d].progress_point]=!1;b[d].current=0;e[
 <script>
 const playerContainer = document.querySelector(".CCH5playerContainer");
 
-playerContainer.onreadystatechange = () => {
+playerContainer.addEventListener("load", () => {
   playerContainer.style.display = "block";
   playerContainer.style.margin = "auto";
-};
+});
 </script>
 </body></html>
