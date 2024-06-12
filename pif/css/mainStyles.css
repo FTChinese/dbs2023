@@ -61,7 +61,7 @@ ul 		{margin:0;}
 .carousel-nav ul.custom_paging li 				{display: none; color: #ffffff} 
 .carousel-nav ul.custom_paging li.slick-active 	{display: block;}
 
-.carousel-nav .slick-arrow				{width: 52px; height: 48px; padding: 0 10px; background-repeat: no-repeat; background-image: url(/_assets/slick-arrow.svg); background-color: transparent; background-position: center; position: absolute; right: 0; top:-10px; transition: 0.75s cubic-bezier(0.75, 0, 0, 1);}
+.carousel-nav .slick-arrow				{width: 52px; height: 48px; padding: 0 10px; background-repeat: no-repeat; background-image: url(/pif/page-images/slick-arrow.svg); background-color: transparent; background-position: center; position: absolute; right: 0; top:-10px; transition: 0.75s cubic-bezier(0.75, 0, 0, 1);}
 .carousel-nav .slick-arrow.slick-prev	{right: auto; left: 0; transform: rotate(180deg)}
 
 .carousel-nav .slick-arrow.slick-disabled				{transform: scale(0);}
