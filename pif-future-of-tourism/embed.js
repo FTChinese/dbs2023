@@ -1,11 +1,11 @@
 var nm = `pif-future-of-tourism`;
-var domain = `https://alphagridinfographics.com`;
+var domain = `//pif.ftmailbox.cn`;
 var subdomain = domain + `/` + nm + `/`;
 var embededHtml = `<article id="pif-infographic">
     <div class="sections">
       <div class="section jarallax background-section video-section in-view" id="section1">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="./pif-future-of-tourism/assets/images/saudi-arabia.jpg"><source src="./pif-future-of-tourism/assets/videos/red-palace-header.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-tourism/assets/images/saudi-arabia.jpg"><source src="/pif-future-of-tourism/assets/videos/red-palace-header.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <h1><span>The future</span> <span>of tourism</span></h1>
@@ -24,7 +24,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section3">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="./pif-future-of-tourism/assets/images/details.jpg"><source src="./pif-future-of-tourism/assets/videos/red-palace.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-tourism/assets/images/details.jpg"><source src="/pif-future-of-tourism/assets/videos/red-palace.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
@@ -43,7 +43,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section5">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="./pif-future-of-tourism/assets/images/diriyah.jpg"><source src="./pif-future-of-tourism/assets/videos/mud-bricks.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-tourism/assets/images/diriyah.jpg"><source src="/pif-future-of-tourism/assets/videos/mud-bricks.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
@@ -53,7 +53,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section6">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="./pif-future-of-tourism/assets/images/diriyah1.jpg" alt="Diriyah">
+          <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/diriyah1.jpg" alt="Diriyah">
           <div class="column">
             <div class="enhanced-wrapper">
               <p class="enhanced quote">It’s cool that we have Instagram and Snapchat, but technology is only effective if it amplifies the authentic human experience – if it lets you connect with people who want to know where to visit in Diriyah, or what it feels like to run your hand along one of the mud silhouettes.&rdquo;</p>
@@ -70,7 +70,7 @@ var embededHtml = `<article id="pif-infographic">
               <p>Preserving this natural habitat is a core mission, and Red Sea Global, the firm behind the project, is committed to achieving a 30 per cent net conservation benefit by 2040 at The Red Sea and its sister destination Amaala.</p>
               <div class="mobile-show">
                 <div class="image-container">
-                  <img src="./pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
+                  <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
                   <p class="caption">The Red Sea resort will incorporate 90 unspoiled islands, each home to some of the world’s most unique natural ecosystems</p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ var embededHtml = `<article id="pif-infographic">
             </div>
             <div class="column desktop-show">
               <div class="image-container">
-                <img src="./pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
+                <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
                 <p class="caption">The Red Sea resort will incorporate 90 unspoiled islands, each home to some of the world’s most unique natural ecosystems</p>
               </div>
             </div>
@@ -89,7 +89,7 @@ var embededHtml = `<article id="pif-infographic">
               <p class="author"><span>John Pagano, CEO,</span> <span>Red Sea Global</span></p>
               <div class="mobile-show">
                 <div class="image-container">
-                  <img src="./pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
+                  <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
                   <p class="caption">The mud brick Salwa Palace in the heart of Diriyah, the birthplace of the nation</p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ var embededHtml = `<article id="pif-infographic">
             </div>
             <div class="column desktop-show">
               <div class="image-container">
-                <img src="./pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
+                <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
                 <p class="caption">The mud brick Salwa Palace in the heart of Diriyah, the birthplace of the nation</p>
               </div>
             </div>
@@ -106,7 +106,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section8">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="./pif-future-of-tourism/assets/images/underwater.jpg" alt="Underwater">
+          <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/underwater.jpg" alt="Underwater">
           <div class="column">
             <p>With the aim of welcoming </p>
             <h2 class="boxed">
@@ -133,7 +133,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section10">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="./pif-future-of-tourism/assets/images/door.jpg" alt="The door">
+          <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/door.jpg" alt="The door">
           <div class="column">
             <p class="enhanced quote">As the number of visitors to Saudi Arabia multiplies, we need to be very careful that we don’t trample over things that are highly unique, or overcome those communities that weren’t designed for that amount of people. You have to have the courage to say: we can’t do that.&rdquo;</p>
             <p class="author"><span>Jerry Inzerillo, CEO,</span> <span>Diriyah Company</span></p>
@@ -150,7 +150,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section12">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="./pif-future-of-tourism/assets/images/desert.jpg"><source src="./pif-future-of-tourism/assets/videos/diriyah.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-tourism/assets/images/desert.jpg"><source src="/pif-future-of-tourism/assets/videos/diriyah.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
@@ -160,7 +160,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section13">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="./pif-future-of-tourism/assets/images/turtle.jpg" alt="Turtle">
+          <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/turtle.jpg" alt="Turtle">
           <div class="column">
             <p class="enhanced quote">We conducted spatial planning simulations of the 90 islands across our archipelago to find the best location for our resorts. But we decided not to build on our favourite island after we found out it was also the nesting site for the critically endangered hawksbill sea turtle.</p>
             <p class="enhanced">These ecosystems are incredibly beautiful and incredibly delicate. Red Sea Global used buoys filled with sensors to see if any activity was impacting the natural composition of the water.&rdquo;</p>
@@ -177,7 +177,7 @@ var embededHtml = `<article id="pif-infographic">
               <p>NEOM tourism destination Leyja, announced in October, is further enriching Saudi Arabia’s ecotourism offering. The development, comprising three hotels, starts from the Gulf of Aqaba coast in the west, then winds inland to form a natural valley carved between 400m-high mountains. Of Leyja’s total area, 95 per cent will be preserved for nature and will combine innovative, ecological design and construction techniques.</p>
               <div class="mobile-show">
                 <div class="image-container">
-                  <img src="./pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
+                  <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
                   <p class="caption">One of Leyja’s three hotels in north-west Saudi Arabia, this property will sit prominently at the heart of the wadi’s largest oasis. Its impressive staircase, ascending from the canyon to the entrance of the property, has been designed to offer unrivalled views of the valley beyond</p>
                 </div>
               </div>
@@ -186,7 +186,7 @@ var embededHtml = `<article id="pif-infographic">
             </div>
             <div class="column desktop-show">
               <div class="image-container">
-                <img src="./pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
+                <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
                 <p class="caption">One of Leyja’s three hotels in north-west Saudi Arabia, this property will sit prominently at the heart of the wadi’s largest oasis. Its impressive staircase, ascending from the canyon to the entrance of the property, has been designed to offer unrivalled views of the valley beyond</p>
               </div>
             </div>
@@ -195,7 +195,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section15">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="./pif-future-of-tourism/assets/images/leyja1.jpg" alt="Leyja">
+          <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/leyja1.jpg" alt="Leyja">
           <div class="column">
             <p class="enhanced">Of Leyja’s total area, 95 percent will be preserved for nature and will combine innovative, ecological design and construction techniques.</p>
           </div>
