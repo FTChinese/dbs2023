@@ -1664,9 +1664,9 @@ html:before {
 	}
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Thin.woff2)
+	src: url(/cms/MetricWeb-Thin.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Thin.woff)
+		url(/cms/MetricWeb-Thin.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 100;
@@ -1674,9 +1674,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Light.woff2)
+	src: url(/cms/MetricWeb-Light.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Light.woff)
+		url(/cms/MetricWeb-Light.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 300;
@@ -1684,9 +1684,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-LightItalic.woff2)
+	src: url(/cms/MetricWeb-LightItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-LightItalic.woff)
+		url(/cms/MetricWeb-LightItalic.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 300;
@@ -1694,9 +1694,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Regular.woff2)
+	src: url(/cms/MetricWeb-Regular.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Regular.woff)
+		url(/cms/MetricWeb-Regular.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 400;
@@ -1704,9 +1704,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-RegularItalic.woff2)
+	src: url(/cms/MetricWeb-RegularItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-RegularItalic.woff)
+		url(/cms/MetricWeb-RegularItalic.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 400;
@@ -1714,9 +1714,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Medium.woff2)
+	src: url(/cms/MetricWeb-Medium.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Medium.woff)
+		url(/cms/MetricWeb-Medium.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 500;
@@ -1724,9 +1724,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Semibold.woff2)
+	src: url(/cms/MetricWeb-Semibold.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Semibold.woff)
+		url(/cms/MetricWeb-Semibold.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 600;
@@ -1734,9 +1734,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Bold.woff2)
+	src: url(/cms/MetricWeb-Bold.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Bold.woff)
+		url(/cms/MetricWeb-Bold.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 700;
@@ -1744,9 +1744,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-BoldItalic.woff2)
+	src: url(/cms/MetricWeb-BoldItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-BoldItalic.woff)
+		url(/cms/MetricWeb-BoldItalic.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 700;
@@ -1754,9 +1754,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/MetricWeb-Black.woff2)
+	src: url(/cms/MetricWeb-Black.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/MetricWeb-Black.woff)
+		url(/cms/MetricWeb-Black.woff)
 			format('woff');
 	font-family: MetricWeb;
 	font-weight: 900;
@@ -1764,9 +1764,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Light.woff2)
+	src: url(/cms/FinancierDisplayWeb-Light.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Light.woff)
+		url(/cms/FinancierDisplayWeb-Light.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 300;
@@ -1774,9 +1774,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-LightItalic.woff2)
+	src: url(/cms/FinancierDisplayWeb-LightItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-LightItalic.woff)
+		url(/cms/FinancierDisplayWeb-LightItalic.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 300;
@@ -1784,9 +1784,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Regular.woff2)
+	src: url(/cms/FinancierDisplayWeb-Regular.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Regular.woff)
+		url(/cms/FinancierDisplayWeb-Regular.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 400;
@@ -1794,9 +1794,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-RegularItalic.woff2)
+	src: url(/cms/FinancierDisplayWeb-RegularItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-RegularItalic.woff)
+		url(/cms/FinancierDisplayWeb-RegularItalic.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 400;
@@ -1804,9 +1804,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-MediumItalic.woff2)
+	src: url(/cms/FinancierDisplayWeb-MediumItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-MediumItalic.woff)
+		url(/cms/FinancierDisplayWeb-MediumItalic.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 500;
@@ -1814,9 +1814,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Medium.woff2)
+	src: url(/cms/FinancierDisplayWeb-Medium.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Medium.woff)
+		url(/cms/FinancierDisplayWeb-Medium.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 500;
@@ -1824,9 +1824,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Semibold.woff2)
+	src: url(/cms/FinancierDisplayWeb-Semibold.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Semibold.woff)
+		url(/cms/FinancierDisplayWeb-Semibold.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 600;
@@ -1834,9 +1834,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-SemiboldItalic.woff2)
+	src: url(/cms/FinancierDisplayWeb-SemiboldItalic.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-SemiboldItalic.woff)
+		url(/cms/FinancierDisplayWeb-SemiboldItalic.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 600;
@@ -1844,9 +1844,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Bold.woff2)
+	src: url(/cms/FinancierDisplayWeb-Bold.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Bold.woff)
+		url(/cms/FinancierDisplayWeb-Bold.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 700;
@@ -1854,9 +1854,9 @@ html:before {
 	font-display: swap;
 }
 @font-face {
-	src: url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Black.woff2)
+	src: url(/cms/FinancierDisplayWeb-Black.woff2)
 			format('woff2'),
-		url(//dbs.ftmailbox.cn/cms/FinancierDisplayWeb-Black.woff)
+		url(/cms/FinancierDisplayWeb-Black.woff)
 			format('woff');
 	font-family: FinancierDisplayWeb;
 	font-weight: 900;
@@ -2000,7 +2000,7 @@ html:before {
 	color: #08474d;
 }
 .o-typography-link--external {
-	background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page.svg);
+	background-image: url(/cms/fticon-v1_outside-page.svg);
 	background-repeat: no-repeat;
 	padding-right: calc(1em + 0.5ch - 0.25em - 0.25em);
 	background-position-x: calc(100% + 0.5ch);
@@ -2009,12 +2009,12 @@ html:before {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-typography-link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page1.svg);
+		background-image: url(/cms/fticon-v1_outside-page1.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-typography-link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page2.svg);
+		background-image: url(/cms/fticon-v1_outside-page2.svg);
 	}
 }
 @supports (background-size: contain) {
@@ -2652,7 +2652,7 @@ html:before {
 	color: #0d7680;
 }
 .o-cookie-message__link--external {
-	background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page.svg);
+	background-image: url(/cms/fticon-v1_outside-page.svg);
 	background-repeat: no-repeat;
 	padding-right: calc(1em + 0.5ch - 0.25em - 0.25em);
 	background-position-x: calc(100% + 0.5ch);
@@ -2665,12 +2665,12 @@ html:before {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-cookie-message__link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page1.svg);
+		background-image: url(/cms/fticon-v1_outside-page1.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-cookie-message__link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page2.svg);
+		background-image: url(/cms/fticon-v1_outside-page2.svg);
 	}
 }
 @supports (background-size: contain) {
@@ -2784,7 +2784,7 @@ html:before {
 }
 .o-cookie-message.o-cookie-message--alternative
 	.o-cookie-message__link--external {
-	background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page2.svg);
+	background-image: url(/cms/fticon-v1_outside-page2.svg);
 	background-repeat: no-repeat;
 	padding-right: calc(1em + 0.5ch - 0.25em - 0.25em);
 	background-position-x: calc(100% + 0.5ch);
@@ -2798,13 +2798,13 @@ html:before {
 @media screen and (-ms-high-contrast: active) {
 	.o-cookie-message.o-cookie-message--alternative
 		.o-cookie-message__link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page1.svg);
+		background-image: url(/cms/fticon-v1_outside-page1.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-cookie-message.o-cookie-message--alternative
 		.o-cookie-message__link--external {
-		background-image: url(//dbs.ftmailbox.cn/cms/fticon-v1_outside-page2.svg);
+		background-image: url(/cms/fticon-v1_outside-page2.svg);
 	}
 }
 @supports (background-size: contain) {
@@ -2966,7 +2966,7 @@ html:after {
 	padding-bottom: 16px;
 }
 .o-footer__brand-logo {
-	background-image: url(//dbs.ftmailbox.cn/cms/ftlogo_brand-nikkei-tagline.svg);
+	background-image: url(/cms/ftlogo_brand-nikkei-tagline.svg);
 	height: 20px;
 	background-repeat: no-repeat;
 	background-position: right;
