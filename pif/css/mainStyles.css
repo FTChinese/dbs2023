@@ -151,7 +151,7 @@ article p a:hover	{color: #000000}
 .blockquote-container hr	{margin: 30px 0 0 0; height: 1px; background-color: #000; content: ''; border: none}
 .quotemark					{position: absolute; top:-10px; left: -10px; width: 69px; height: 58px; display: flex;}
 .quotemark:before,
-.quotemark:after			{width: 44px; height: 58px; background-image: url(/_assets/quotemark.svg); background-size: cover; display: block; content: ''; position: absolute; z-index: 2}
+.quotemark:after			{width: 44px; height: 58px; background-image: url(/pif/page-images/quotemark.svg); background-size: cover; display: block; content: ''; position: absolute; z-index: 2}
 .quotemark:after			{opacity: 0.4; z-index: 1; left: 25px;}
 
 .infographic-container		{background-color: #1D1D1B; padding: 100px 20px; margin: 5em 0}
