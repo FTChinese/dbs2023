@@ -5,7 +5,7 @@ var embededHtml = `<article id="pif-infographic">
     <div class="sections">
       <div class="section jarallax background-section in-view" id="section1">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/the-line-header.jpg" alt="The future of cities">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/the-line-header.jpg" alt="The future of cities">
           <h1><span>The future</span> <span>of cities</span></h1>
           <h2>A new way of living</h2>
           <p><span>Why tackling climate change</span> <span>and rapid urbanisation requires</span> <span>a smarter approach to urban design</span></p>
@@ -14,7 +14,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section2">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/sky-bridges.jpg" alt="42 sky bridges">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/sky-bridges.jpg" alt="42 sky bridges">
           <div class="column">
             <p>As you sip coffee and watch the morning sun move across Riyadh from one of the</p>
             <h2 class="boxed">
@@ -41,7 +41,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section4">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/kafd.jpg" alt="City population">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/kafd.jpg" alt="City population">
           <div class="column">
             <p>Between 2018 and 2050, urban populations are expected to increase by roughly</p>
             <h2 class="boxed">
@@ -65,7 +65,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section6">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/assets/images/murabba.jpg"><source src="/pif-future-of-cities/assets/assets/videos/new-murabba.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/images/murabba.jpg"><source src="/pif-future-of-cities/assets/videos/new-murabba.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
@@ -79,7 +79,7 @@ var embededHtml = `<article id="pif-infographic">
             <p>Reducing bottlenecks at the heart of major cities poses another challenge. The solution is to think in terms of three dimensions. &ldquo;In KAFD we are building 50 sky bridges that not only make better use of vertical space, but help people move across a climate-controlled walkable urban environment in which all necessary amenities are within 10 minutes of home and work,&rdquo; explains Gautam Sashittal, CEO of KAFD DMC.</p>
             <div class="mobile-show">
               <div class="image-container">
-                <img src="/pif-future-of-cities/assets/assets/images/kafd1.jpg" alt="the KAFD">
+                <img src="/pif-future-of-cities/assets/images/kafd1.jpg" alt="the KAFD">
                 <p class="caption">By 2030, the KAFD will have around 6,100 five star hotel rooms and branded apartments</p>
               </div>
             </div>
@@ -87,7 +87,7 @@ var embededHtml = `<article id="pif-infographic">
           </div>
           <div class="column desktop-show">
             <div class="image-container">
-              <img src="/pif-future-of-cities/assets/assets/images/kafd1.jpg" alt="the KAFD">
+              <img src="/pif-future-of-cities/assets/images/kafd1.jpg" alt="the KAFD">
               <p class="caption">By 2030, the KAFD will have around 6,100 five star hotel rooms and branded apartments</p>
             </div>
           </div>
@@ -95,7 +95,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section8">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/desert.jpg" alt="Desert">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/desert.jpg" alt="Desert">
           <div class="column">
             <p>NEOM, a giga-project owned by PIF, is envisioning a blueprint for cities over the next 150 years. Stretching</p>
             <h2 class="boxed">
@@ -128,7 +128,7 @@ var embededHtml = `<article id="pif-infographic">
               <p>As urban populations grow, they will also face increasingly extreme conditions. In a worst-case climate scenario, temperatures across the Middle East and North Africa could rise by as much as three degrees Celsius, putting pressure on urban populations and infrastructure.</p>
               <div class="mobile-show">
                 <div class="image-container">
-                  <img src="/pif-future-of-cities/assets/assets/images/warefa.jpg" alt="Warefa">
+                  <img src="/pif-future-of-cities/assets/images/warefa.jpg" alt="Warefa">
                   <p class="caption">11 per cent of WAREFA, ROSHN’s second community development in Riyadh, will be devoted to open and green spaces</p>
                 </div>
               </div>
@@ -137,7 +137,7 @@ var embededHtml = `<article id="pif-infographic">
             </div>
             <div class="column desktop-show">
               <div class="image-container">
-                <img src="/pif-future-of-cities/assets/assets/images/warefa.jpg" alt="Warefa">
+                <img src="/pif-future-of-cities/assets/images/warefa.jpg" alt="Warefa">
                 <p class="caption">11 per cent of WAREFA, ROSHN’s second community development in Riyadh, will be devoted to open and green spaces</p>
               </div>
             </div>
@@ -146,7 +146,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section10">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/assets/images/smartcity.jpg"><source src="/pif-future-of-cities/assets/assets/videos/warefa.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/images/smartcity.jpg"><source src="/pif-future-of-cities/assets/videos/warefa.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
@@ -167,11 +167,11 @@ var embededHtml = `<article id="pif-infographic">
               <p>These smarter models for urban design underpin PIF’s blueprint for the future of cities, but they do not define them. &ldquo;We are very conscious of Saudi culture and heritage, and the way architecture varies around the kingdom,&rdquo; explains Grover. &ldquo;This means that while houses need to be high quality, they also need to be placed in a visual wrapper that fits in with the local architecture and the local community.&rdquo;</p>
               <div class="mobile-show">
                 <div class="image-container">
-                  <img src="/pif-future-of-cities/assets/assets/images/alarous1.jpg" alt="Alarous">
+                  <img src="/pif-future-of-cities/assets/images/alarous1.jpg" alt="Alarous">
                   <p class="caption">ALAROUS will provide 18,000 new homes on the outskirts of Jeddah</p>
                 </div>
                 <div class="image-container">
-                  <img src="/pif-future-of-cities/assets/assets/images/alarous2.jpg" alt="Unique architectural styles">
+                  <img src="/pif-future-of-cities/assets/images/alarous2.jpg" alt="Unique architectural styles">
                   <p class="caption">Unique architectural styles are inspired by the region’s cultural heritage</p>
                 </div>
               </div>
@@ -180,11 +180,11 @@ var embededHtml = `<article id="pif-infographic">
             </div>
             <div class="column desktop-show">
               <div class="image-container">
-                <img src="/pif-future-of-cities/assets/assets/images/alarous1.jpg" alt="AlArous">
+                <img src="/pif-future-of-cities/assets/images/alarous1.jpg" alt="AlArous">
                 <p class="caption">ALAROUS will provide 18,000 new homes on the outskirts of Jeddah</p>
               </div>
               <div class="image-container">
-                <img src="/pif-future-of-cities/assets/assets/images/alarous2.jpg" alt="Unique architectural styles">
+                <img src="/pif-future-of-cities/assets/images/alarous2.jpg" alt="Unique architectural styles">
                 <p class="caption">Unique architectural styles are inspired by the region’s cultural heritage</p>
               </div>
             </div>
@@ -193,7 +193,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section12">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/the-line-green.jpg" alt="The Line">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/the-line-green.jpg" alt="The Line">
           <div class="column">
             <p>THE LINE, for example, is being built for </p>
             <h2 class="boxed">
@@ -216,7 +216,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section" id="section14">
         <div class="section-wrapper">
-          <img class="jarallax-img" src="/pif-future-of-cities/assets/assets/images/roshn.jpg" alt="100m wide canal">
+          <img class="jarallax-img" src="/pif-future-of-cities/assets/images/roshn.jpg" alt="100m wide canal">
           <div class="column">
             <p>To do this, urban centers are being built around iconic landmarks. In the north of Jeddah, an 11km-long, </p>
             <h2 class="boxed">
@@ -245,7 +245,7 @@ var embededHtml = `<article id="pif-infographic">
       </div>
       <div class="section jarallax background-section video-section" id="section16">
         <div class="section-video-container">
-          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/assets/images/city-for-future.jpg"><source src="/pif-future-of-cities/assets/assets/videos/mukaab.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+          <video playsinline="" webkit-playsinline="" loop="" autoplay="" preload="" muted="" poster="/pif-future-of-cities/assets/images/city-for-future.jpg"><source src="/pif-future-of-cities/assets/videos/mukaab.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         </div>
         <div class="section-wrapper">
           <div class="column">
