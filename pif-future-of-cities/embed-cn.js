@@ -150,7 +150,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced quote">“人们认为智慧城市是关于技术本身，但它更多的是关于这项技术如何促进智能规划，”</p>
+            <p class="enhanced quote">人们认为智慧城市是关于技术本身，但它更多的是关于这项技术如何促进智能规划，”</p>
             <p>巴拉卡特解释说，并指出，3D模型可用来确定建筑物的放置位置，以便为其后面的建筑提供遮荫，以及在哪里种植植被可以为步行道提供遮荫，而不完全遮挡自然光。</p>
           </div>
         </div>

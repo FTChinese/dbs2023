@@ -28,7 +28,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced quote">“正是这些细节，这些时刻，定义了你对一个目的地的体验体会，”</p>
+            <p class="enhanced quote">正是这些细节，这些时刻，定义了你对一个目的地的体验体会，”</p>
             <p>公共投资基金（PIF）旗下的酒店公司Boutique Group的首席执行官马克·德·科奇尼斯说。这家公司被委以重任，将沙特阿拉伯的几座历史宫殿转变为面向未来一代游客的景点。</p>
             <p>保护国家丰富的文化和历史对于PIF实现经济多元化的计划至关重要，这呈现了对旅游业未来的大胆新愿景——并支持沙特阿拉伯到2030年吸引1.5亿游客的目标。</p>
           </div>
@@ -56,7 +56,7 @@ var embededHtml = `<article id="pif-infographic">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/diriyah1.jpg" alt="Diriyah">
           <div class="column">
             <div class="enhanced-wrapper">
-              <p class="enhanced quote">“虽然我们有Instagram和Snapchat这样的平台，这很酷，但技术只有在能够增强真实的人类体验时才真正有效——比如，它能让你与那些想知道在迪利耶应该去哪里玩，或者想感受一下手掌在泥雕上滑过的感觉的人建立联系。”</p>
+              <p class="enhanced quote">虽然我们有Instagram和Snapchat这样的平台，这很酷，但技术只有在能够增强真实的人类体验时才真正有效——比如，它能让你与那些想知道在迪利耶应该去哪里玩，或者想感受一下手掌在泥雕上滑过的感觉的人建立联系。”</p>
               <p><span>杰瑞·因泽里洛, 首席执行官,</span> <span>迪利耶公司</span></p>
             </div>
           </div>
@@ -85,7 +85,7 @@ var embededHtml = `<article id="pif-infographic">
           </div>
           <div class="columns">
             <div class="column">
-              <p class="enhanced quote">“我们培训他们如何进行导览，但有些事情不需要我们来培训，比如他们的传统，他们的父母和祖父母如何在这片土地上生存的经验，以及他们的祖先如何利用星星在沙漠中导航的传说。人们渴望这些真实的体验，我们也乐于呈现这种真实。” </p>
+              <p class="enhanced quote">我们培训他们如何进行导览，但有些事情不需要我们来培训，比如他们的传统，他们的父母和祖父母如何在这片土地上生存的经验，以及他们的祖先如何利用星星在沙漠中导航的传说。人们渴望这些真实的体验，我们也乐于呈现这种真实。” </p>
               <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
               <div class="mobile-show">
                 <div class="image-container">
@@ -114,7 +114,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="1.3">130</span>万名游客</span><span class="block">每年</span>
+              <span class="block"><span class="counter" data-value="1.3">130万</span>游客</span><span class="block">每年</span>
             </h2>
             <p>Cruise Saudi正在不断扩展其基础设施以适应不断增长的客流量，目前有三个港口在运营，四个在建设中，还有三个在规划中。</p>
           </div>
@@ -123,7 +123,7 @@ var embededHtml = `<article id="pif-infographic">
       <div class="section jarallax" id="section9">
         <div class="section-wrapper">
           <div class="column">
-            <p>此外，该公司新推出的AROYA Cruise将提供一种‘极具阿拉伯特色’的体验，它是第一条针对海湾合作委员会（GCC）观众偏好设计的邮轮线路。它旨在提供一个独特的新概念，用于度假和探索红海及更远的地方。Cruise Saudi还与Aman Resorts酒店公司合作，计划到2027年推出一艘面向超高净值个人的豪华游艇“Aman at Sea”。</p>
+            <p>此外，该公司新推出的AROYA Cruise将提供一种“极具阿拉伯特色”的体验，它是第一条针对海湾合作委员会（GCC）观众偏好设计的邮轮线路。它旨在提供一个独特的新概念，用于度假和探索红海及更远的地方。Cruise Saudi还与Aman Resorts酒店公司合作，计划到2027年推出一艘面向超高净值个人的豪华游艇“Aman at Sea”。</p>
             <div class="enhanced-wrapper">
               <p class="enhanced with-border">但旅游业的未来需要我们今天扮演好管家的角色</p>
             </div>
@@ -135,7 +135,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/door.jpg" alt="The door">
           <div class="column">
-            <p class="enhanced quote">“随着越来越多游客涌入沙特阿拉伯，我们必须格外小心，避免破坏那些极其珍贵独特的事物，或是压垮那些本不适合承载大量人口的社区。我们需要勇气坦诚地说：我们不能这样做。”</p>
+            <p class="enhanced quote">随着越来越多游客涌入沙特阿拉伯，我们必须格外小心，避免破坏那些极其珍贵独特的事物，或是压垮那些本不适合承载大量人口的社区。我们需要勇气坦诚地说：我们不能这样做。”</p>
             <p class="author"><span>杰瑞·因泽里洛, 首席执行官,</span> <span>迪利耶公司</span></p>
           </div>
         </div>
@@ -162,7 +162,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/turtle.jpg" alt="Turtle">
           <div class="column">
-            <p class="enhanced quote">“我们对我们群岛中的90个岛屿进行了空间规划模拟，以找到我们度假村的最佳位置。但当我们发现我们最喜欢的岛屿也是濒临灭绝的玳瑁海龟的筑巢地后，我们决定不在那里建设。 </p>
+            <p class="enhanced quote">我们对我们群岛中的90个岛屿进行了空间规划模拟，以找到我们度假村的最佳位置。但当我们发现我们最喜欢的岛屿也是濒临灭绝的玳瑁海龟的筑巢地后，我们决定不在那里建设。 </p>
             <p class="enhanced">这些生态系统既美丽又脆弱。红海全球使用装有传感器的浮标来监测任何活动是否影响了水的自然成分。”</p>
             <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
           </div>
