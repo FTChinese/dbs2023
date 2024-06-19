@@ -105,7 +105,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-left"></span>
               <span class="counter" data-value="170">170</span>公里
             </h2>
-            <p>的THE LINE将成为世界上首个认知城市，利用人工智能和其他技术提升人们的现代生活质量。</p>
+            <p>的THE LINE将成为世界上首个智能城市，利用人工智能和其他技术提升人们的现代生活质量。</p>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@ var embededHtml = `<article id="pif-infographic">
               <p>与其他城市基础设施项目不同，THE LINE是一个绿地项目，这意味着物理和数字架构可以与人们的生活同步建设。例如，城市的第一批居民将会搬入他们在线上装饰、通过虚拟现实走访、并按照精确规格建造的家中。</p>
               <p>通过将技术置于城市设计的核心，PIF采纳了全球最佳的规划、实施和创新实践。这不仅提高了人们的生活标准，而且确保了城市生活的可持续性。</p>
               <div class="enhanced-wrapper">
-                <p class="enhanced with-border">Making these cities sustainable requires smarter use of the world around them</p>
+                <p class="enhanced with-border">让这些城市可持续发展需要更智能地利用周围的环境。</p>
               </div>
             </div>
             <div class="column desktop-show">
@@ -161,7 +161,7 @@ var embededHtml = `<article id="pif-infographic">
             <div class="column">
               <p>智能规划在ROSHN建造的综合社区中也很明显，这是PIF的一个巨型项目，计划到2030年在沙特阿拉伯的多个城市建造超过400,000套住房。在首席执行官大卫·格罗弗的领导下，ROSHN的开发项目包括配备高科技隔热材料的住宅单元、太阳能热水器和高效空调系统——所有这些都被公共空间、绿地和自行车道环绕，以促进健康的生活方式和可步行的环境。</p>
               <div class="enhanced-wrapper">
-                <p class="enhanced with-border">For these cities to be truly sustainable, they need to inspire future generations
+                <p class="enhanced with-border">要让这些城市真正可持续，它们需要激励未来的几代人。
                 </p>
               </div>
               <p>这些更智能的城市设计模型支撑了PIF对城市未来的蓝图，但并不定义它们。“我们非常注重沙特的文化和遗产，以及王国各地的建筑风格变化，”格罗弗解释说。“这意味着，虽然房屋需要高质量，但也需要放在与当地建筑和社区相符的视觉包装中。”</p>
@@ -256,7 +256,7 @@ var embededHtml = `<article id="pif-infographic">
       <div class="section" id="section17">
         <div class="section-wrapper">
           <div class="cta-container">
-            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-cities" target="_blank" rel="noopener"><span>DISCOVER <strong>MORE</strong></span></a>
+            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-cities" target="_blank" rel="noopener"><span>探索 <strong>更多</strong></span></a>
           </div>
         </div>
       </div>
