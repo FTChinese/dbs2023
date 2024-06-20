@@ -114,7 +114,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="1300000">130万</span>游客</span><span class="block">每年</span>
+              <span class="block"><span class="counter" data-value="130">130万</span>万游客</span><span class="block">每年</span>
             </h2>
             <p>Cruise Saudi正在不断扩展其基础设施以适应不断增长的客流量，目前有三个港口在运营，四个在建设中，还有三个在规划中。</p>
           </div>
