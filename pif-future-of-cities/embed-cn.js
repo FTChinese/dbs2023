@@ -69,7 +69,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-          <p>在利雅得未来派的市中心开发区新Murabba中，住宅区不会按照街区进行规划，而是围绕‘移动环路’建设——这些自行车道或人行道让你可以步行带孩子去学校，或者骑电动自行车在不到15分钟内到达电影院。</p>
+          <p>在利雅得未来派的市中心开发区新Murabba中，住宅区不会按照街区进行规划，而是围绕“移动环路”建设——这些自行车道或人行道让你可以步行带孩子去学校，或者骑电动自行车在不到15分钟内到达电影院。</p>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>与其他城市基础设施项目不同，THE LINE是一个绿地项目，这意味着物理和数字架构可以与人们的生活同步建设。例如，城市的第一批居民将会搬入他们在线上装饰、通过虚拟现实走访、并按照精确规格建造的家中。</p>
+              <p>与其他城市基础设施项目不同，THE LINE是一个绿地项目，这意味着现实和数字架构可以与人们的生活同步建设。例如，城市的第一批居民将会搬入他们在线上装饰、通过虚拟现实走访、并按照精确规格建造的家中。</p>
               <p>通过将技术置于城市设计的核心，PIF采纳了全球最佳的规划、实施和创新实践。这不仅提高了人们的生活标准，而且确保了城市生活的可持续性。</p>
               <div class="enhanced-wrapper">
                 <p class="enhanced with-border">让这些城市可持续发展需要更智能地利用周围的环境。</p>
@@ -129,7 +129,7 @@ var embededHtml = `<article id="pif-infographic">
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-cities/assets/images/warefa.jpg" alt="Warefa">
-                  <p class="caption">在ROSHN在利雅得的第二个社区开发项目WAREFA中，将有11%的面积用于开放和绿色空间。</p>
+                  <p class="caption">位于利雅得的ROSHN第二个社区开发项目，WAREFA中，将有11%的面积用于开放和绿色空间。</p>
                 </div>
               </div>
               <p>许多解决方案存在于自然环境中，技术正在帮助许多PIF公司确定城市如何更好地利用周围世界。例如，在瓦迪河盆地种植更多植被可能会增加风向利雅得的流动，并自然降低温度多达5摄氏度。KAFD也在考虑周围环境的设计中，拥有一个连接所有区域的中央步行道，该步行道建在街道水平线以下以捕捉风流，并确保温度比利雅得中心区低8-10摄氏度。</p>
@@ -138,7 +138,7 @@ var embededHtml = `<article id="pif-infographic">
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-cities/assets/images/warefa.jpg" alt="Warefa">
-                <p class="caption">在ROSHN在利雅得的第二个社区开发项目WAREFA中，将有11%的面积用于开放和绿色空间。</p>
+                <p class="caption">位于利雅得的ROSHN第二个社区开发项目，WAREFA中，将有11%的面积用于开放和绿色空间。</p>
               </div>
             </div>
           </div>
@@ -161,10 +161,10 @@ var embededHtml = `<article id="pif-infographic">
             <div class="column">
               <p>智能规划在ROSHN建造的综合社区中也很明显，这是PIF的一个巨型项目，计划到2030年在沙特阿拉伯的多个城市建造超过400,000套住房。在首席执行官大卫·格罗弗的领导下，ROSHN的开发项目包括配备高科技隔热材料的住宅单元、太阳能热水器和高效空调系统——所有这些都被公共空间、绿地和自行车道环绕，以促进健康的生活方式和可步行的环境。</p>
               <div class="enhanced-wrapper">
-                <p class="enhanced with-border">要让这些城市真正可持续，它们需要激励未来的几代人。
+                <p class="enhanced with-border">要让这些城市真正可持续，它们需要动员未来的几代人。
                 </p>
               </div>
-              <p>这些更智能的城市设计模型支撑了PIF对城市未来的蓝图，但并不定义它们。“我们非常注重沙特的文化和遗产，以及王国各地的建筑风格变化，”格罗弗解释说。“这意味着，虽然房屋需要高质量，但也需要放在与当地建筑和社区相符的视觉包装中。”</p>
+              <p>这些更智能的城市设计模型支撑了PIF对城市未来的蓝图，但并不定义它们。“我们非常注重沙特的文化和遗迹，以及王国各地的建筑风格变化，”格罗弗解释说。“这意味着，虽然房屋需要高质量，但也需要放在与当地建筑和社区相符的视觉包装中。”</p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-cities/assets/images/alarous1.jpg" alt="Alarous">
