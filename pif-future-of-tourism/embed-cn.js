@@ -66,6 +66,48 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
+              <p class="show">Meanwhile, on the country’s west coast, PIF’s giga-project The Red Sea is welcoming its first guests. The regenerative-tourism destination stretches across 200km of coastline, encompassing more than 90 islands as well as the Al Wajh lagoon, a unique ecological habitat centred around coral reefs, seagrass and mangrove trees.</p>
+              <p class="show">Preserving this natural habitat is a core mission, and Red Sea Global, the firm behind the project, is committed to achieving a 30 per cent net conservation benefit by 2040 at The Red Sea and its sister destination Amaala.</p>
+              <div class="mobile-show">
+                <div class="image-container show">
+                  <img src="https://alphagridinfographics.com/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
+                  <p class="caption show">The Red Sea resort will incorporate 90 unspoiled islands, each home to some of the world’s most unique natural ecosystems</p>
+                </div>
+              </div>
+              <p class="show">But it is also committed to the preservation of Saudi Arabia’s cultural heritage. Red Sea Global is paying for hundreds of local Saudis to study hospitality at some of the country’s best universities, and is employing them across its destinations. “Only they can explain local traditions and cultures in an authentic way,” says John Pagano, the Group CEO.</p>
+            </div>
+            <div class="column desktop-show">
+              <div class="image-container show">
+                <img src="https://alphagridinfographics.com/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
+                <p class="caption show">The Red Sea resort will incorporate 90 unspoiled islands, each home to some of the world’s most unique natural ecosystems</p>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <p class="enhanced quote show">We train them on how to do the guiding, but what we don’t have to train them on is their traditions, the experience of how their parents and grandparents lived on the land; the stories of how their ancestors used the stars to navigate through the desert. People want these authentic experiences and we’re embracing that.”</p>
+              <p class="author show"><span>John Pagano, CEO,</span> <span>Red Sea Global</span></p>
+              <div class="mobile-show">
+                <div class="image-container show">
+                  <img src="https://alphagridinfographics.com/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
+                  <p class="caption show">The mud brick Salwa Palace in the heart of Diriyah, the birthplace of the nation</p>
+                </div>
+              </div>
+              <p class="show">Lars Clasen, CEO of the PIF-owned Cruise Saudi, believes that authenticity is a vital quality in any tourism business, not only in providing an immersive experience for guests but also facilitating operations. “Saudi Arabia’s rich culture is what attracts international tourists to its shores, and to date Cruise Saudi has welcomed more than 300,000 passengers representing over 120 nationalities. However, this means that there is a wide variety of different cultures and expectations – with different food preferences, music tastes and even different timings in daily schedules. Offering an experience that is authentically Saudi therefore aligns our passengers in a shared experience.”</p>
+            </div>
+            <div class="column desktop-show">
+              <div class="image-container show">
+                <img src="https://alphagridinfographics.com/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
+                <p class="caption show">The mud brick Salwa Palace in the heart of Diriyah, the birthplace of the nation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="section jarallax in-view" id="section7">
+        <div class="section-wrapper">
+          <div class="columns">
+            <div class="column">
               <p>与此同时，在该国西海岸，PIF的巨型项目红海正在迎接首批游客。这个再生旅游目的地沿海岸线延伸200公里，包括90多个岛屿以及Al Wajh泻湖，这是一个以珊瑚礁、海草和红树林为中心的独特生态栖息地。</p>
               <p>保护这一自然栖息地是一个核心使命，负责该项目的红海全球公司致力于到2040年在红海及其姐妹目的地Amaala实现30%的净保护效益。</p>
               <div class="mobile-show">
