@@ -103,47 +103,6 @@ var embededHtml = `<article id="pif-infographic">
           </div>
         </div>
       </div>
-      <div class="section jarallax" id="section7">
-        <div class="section-wrapper">
-          <div class="columns">
-            <div class="column">
-              <p>与此同时，在该国西海岸，PIF的巨型项目红海正在迎接首批游客。这个再生旅游目的地沿海岸线延伸200公里，包括90多个岛屿以及Al Wajh泻湖，这是一个以珊瑚礁、海草和红树林为中心的独特生态栖息地。</p>
-              <p>保护这一自然栖息地是一个核心使命，负责该项目的红海全球公司致力于到2040年在红海及其姐妹目的地Amaala实现30%的净保护效益。</p>
-              <div class="mobile-show">
-                <div class="image-container">
-                  <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
-                  <p class="caption">红海度假区将包括90个未受破坏的岛屿，每个岛屿都拥有世界上一些最独特的自然生态系统。</p>
-                </div>
-              </div>
-              <p>但该公司也致力于保护沙特阿拉伯的文化遗产。红海全球公司资助数百名当地沙特人在该国一些最好的大学学习酒店管理，并在其旅游目的地提供就业机会。集团首席执行官约翰·帕加诺说：“只有他们能以真实的方式解释当地的传统和文化。”</p>
-            </div>
-            <div class="column desktop-show">
-              <div class="image-container">
-                <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
-                <p class="caption">红海度假区将涵盖90个原始岛屿，每一个岛屿都是世界上一些最独特自然生态系统的所在地。</p>
-              </div>
-            </div>
-          </div>
-          <div class="columns">
-            <div class="column">
-              <p class="enhanced quote">我们培训他们如何进行导览，但有些事情不需要我们来培训，比如他们的传统，他们的父母和祖父母如何在这片土地上生存的经验，以及他们的祖先如何利用星星在沙漠中导航的传说。人们渴望这些真实的体验，我们也乐于呈现这种真实。” </p>
-              <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
-              <div class="mobile-show">
-                <div class="image-container">
-                  <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
-                  <p class="caption">位于国家发源地迪利耶中心的泥砖萨尔瓦宫。</p>
-                </div>
-              </div>
-              <p>PIF旗下的Cruise Saudi的首席执行官拉斯·克拉森认为，真实性是任何旅游业务中的一个至关重要的品质，不仅能为客人提供沉浸式体验，也有助于促进运营。“沙特阿拉伯丰富的文化是吸引国际游客前来的原因，迄今为止，Cruise Saudi已迎来了超过300,000名乘客，代表了120多个国籍。然而，这意味着存在着各种不同的文化和期望——包括不同的食物偏好、音乐品味甚至日常时间表的不同。因此，提供一种真正具有沙特特色的体验，使我们的乘客在共享的体验中找到共鸣。”</p>
-            </div>
-            <div class="column desktop-show">
-              <div class="image-container">
-                <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
-                <p class="caption">位于国家发源地迪利耶中心的泥砖萨尔瓦宫</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div class="section jarallax background-section" id="section8">
         <div class="section-wrapper">
