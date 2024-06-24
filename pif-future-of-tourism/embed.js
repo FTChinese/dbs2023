@@ -212,35 +212,35 @@ var embededHtml = `<article id="pif-infographic">
   </article>`
 
 var scripts = [`assets/js/main`];
-var styles = [`assets/css/main`,`assets/css/jarallax.min`];
+var styles = [`assets/css/main`, `assets/css/jarallax.min`];
 
 var ag = document.getElementById(`ag-infographic`);
-if(ag){
-	
-	// ag.style.opacity = 0;
+if (ag) {
 
-	for (var style of styles) {
-		var lp = document.createElement(`link`);
-		lp.rel=`preload`;
-		lp.as=`style`;
-		lp.href=subdomain+style+`.css`
+    // ag.style.opacity = 0;
 
-		var ls = document.createElement(`link`);
-		ls.rel=`stylesheet`;
-		ls.href=subdomain+style+`.css`
+    for (var style of styles) {
+        var lp = document.createElement(`link`);
+        lp.rel = `preload`;
+        lp.as = `style`;
+        lp.href = subdomain + style + `.css`
 
-		document.head.appendChild(lp);
-		document.head.appendChild(ls);
-	}
+        var ls = document.createElement(`link`);
+        ls.rel = `stylesheet`;
+        ls.href = subdomain + style + `.css`
 
-	for (var script of scripts) {
+        document.head.appendChild(lp);
+        document.head.appendChild(ls);
+    }
 
-		var sc = document.createElement(`script`);
-		sc.src = subdomain+script+`.js`;
-		sc.async = true;
-		document.body.appendChild(sc);
-	}
+    for (var script of scripts) {
 
-	ag.innerHTML = embededHtml;
+        var sc = document.createElement(`script`);
+        sc.src = subdomain + script + `.js`;
+        sc.async = true;
+        document.body.appendChild(sc);
+    }
 
-} 
+    ag.innerHTML = embededHtml;
+
+}
