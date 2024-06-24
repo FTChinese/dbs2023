@@ -86,8 +86,8 @@ var embededHtml = `<article id="pif-infographic">
           </div>
           <div class="columns">
             <div class="column">
-              <p class="enhanced quote">We train them on how to do the guiding, but what we don’t have to train them on is their traditions, the experience of how their parents and grandparents lived on the land; the stories of how their ancestors used the stars to navigate through the desert. People want these authentic experiences and we’re embracing that.&rdquo;</p>
-              <p class="author"><span>John Pagano, CEO,</span> <span>Red Sea Global</span></p>
+              <p class="enhanced quote">我们培训他们如何进行导览，但有些事情不需要我们来培训，比如他们的传统，他们的父母和祖父母如何在这片土地上生存的经验，以及他们的祖先如何利用星星在沙漠中导航的传说。人们渴望这些真实的体验，我们也乐于呈现这种真实。” </p>
+              <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
