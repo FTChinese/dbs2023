@@ -16,25 +16,25 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-cities/assets/images/sky-bridges.jpg" alt="42 sky bridges">
           <div class="column">
-            <p>清晨，当你在在阿卜杜拉国王金融区（KAFD）</p>
+            <p>漫步在阿卜杜拉国王金融区(KAFD)的</p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="50">50</span> 座</span> <span class="block">空中桥梁</span>
+              <span class="block"><span class="counter" data-value="50">50</span> 座</span> <span class="block">t天桥</span>
             </h2>
-            <p>之一上喝着咖啡，看着晨曦洒在利雅得上空时，从某个角落静静欣赏着这一切。城市渐渐苏醒，开始焕发出勃勃生机。电梯快速地上下运行，将充满活力的通勤者送到上方的跑道。与此同时，喷灌系统为城市高大玻璃立面的垂直花园洒下细细水珠。</p>
+            <p>之一上，边品尝咖啡，边观赏着整个利雅得在朝阳中逐渐苏醒，焕发出蓬勃生机。电梯快速升降，将穿着运动装的通勤者送至空中跑道，与此同时，喷水器正在浇灌城市高大玻璃立面上的垂直花园。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section3">
         <div class="section-wrapper">
           <div class="column">
-            <p>曾经伴随人们早晨通勤的低沉交通噪音也已消失。2040年的城市焕然一新，感受完全不同。</p>
-            <p>城市究竟是从什么时候开始发生改变的呢？</p>
+            <p>早晨通勤时习以为常的交通轰鸣已然消失。2040年，城市的氛围将焕然一新。</p>
+            <p>但是，城市究竟是从何时开始转变的？</p>
             <div class="enhanced-wrapper">
-              <p class="enhanced with-border">想要容纳更多人口，需要本地和远程解决方案的有机结合。</p>
+              <p class="enhanced with-border">要想容纳更多的人口，需要本地和长途解决方案的有机结合。</p>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-cities/assets/images/kafd.jpg" alt="City population">
           <div class="column">
-            <p>预计在2018年至2050年之间，城市人口将增加约</p>
+            <p>2018年至2050年之间，城市人口预计将增加约</p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
@@ -51,15 +51,15 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-left"></span>
               <span class="counter" data-value="25">25</span> 亿
             </h2>
-            <p>要容纳更多人口的同时而不使城市变得拥挤，我们需要采用更智慧的城市设计方案。</p>
+            <p>要在容纳更多人口的同时避免城市拥挤，我们需要采用更智慧的城市设计方案。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section5">
         <div class="section-wrapper">
           <div class="column">
-            <p>“当城市移民不断增加时，城市往往会向外扩张，”公共投资基金（PIF）旗下的新穆拉巴开发公司（NMDC）代理首席执行官沙巴·巴拉卡特解释道。该公司负责在利雅得开发一个庞大的市中心区域。“这种城市扩张增大了住宅区和市中心的工作和服务设施的距离，导致更多人需要长距离通勤，从而造成交通拥堵。”</p>
-            <p>为了缓解这种拥堵，PIF正在投资大规模的城市开发项目，旨在创建方便人们生活、工作和娱乐的社区——以广阔的阿卜杜拉国王金融区（KAFD）为例，人们从家到达这些设施的路程仅需10分钟左右。</p>
+            <p>“当城市移民不断增加，城市往往会向外扩张，”公共投资基金(PIF)旗下的新穆拉巴开发公司(NMDC)代理首席执行官萨巴·巴拉卡特(Sabah Barakat)解释道。该公司负责在利雅得开发一个巨型市中心区域。“城市扩张增大了住宅区和市中心的工作和服务设施的距离，导致更多人需要长距离通勤，从而造成交通拥堵。”</p>
+            <p>为了缓解这种拥堵，PIF正在投资大规模的城市开发项目，旨在创建方便人们生活、工作和娱乐的社区——例如在扩建的阿卜杜拉国王金融区(KAFD)，人们从家到达这些设施仅需10分钟左右。</p>
           </div>
         </div>
       </div>
@@ -69,26 +69,26 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-          <p>在利雅得未来主义的新穆拉巴市中心开发项目中，住宅区不再以传统街区形式布局，而是与“移动环路”毗邻而居。这些环路包括自行车道或步行道，使人们仅需步行送孩子上学或骑电动自行车15分钟内就可以抵达电影院。</p>
+          <p>在充满未来主义风格的利雅得新穆拉巴市中心开发项目中，住宅区不再以传统街区形式布局，而是与“出行环线”毗邻——这些自行车道或步行道让你可以步行带孩子去学校，或在不到15分钟内骑电动自行车到电影院。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section7">
         <div class="section-wrapper">
           <div class="column">
-            <p>减少大城市核心区域的拥堵是一项重大挑战。解决方案在于从三维立体层面进行思考。阿卜杜拉国王金融区开发管理公司（KAFD DMC）首席执行官高塔姆·萨希塔尔解释道：“在阿卜杜拉国王金融区，我们正在建设50座空中桥梁，这不仅能更好地利用空间，还能帮助人们在城市中自由穿行，使所有生活必须的设施都能遍布在其居所或工作地点附件，仅需10分钟就可以抵达。”</p>
+            <p>减少大城市核心区域的拥堵是一项重大挑战。解决之道在于从三维立体层面进行思考。阿卜杜拉国王金融区开发管理公司(KAFD DMC)首席执行官高塔姆·萨希塔尔(Gautam Sashittal)解释道：“在阿卜杜拉国王金融区，我们正在建设50座天桥，这不仅能更好地利用垂直空间，还能帮助人们在气温可控的城市环境中自由穿行，而所有生活必需设施都能遍布在居所或工作地点附近，仅需10分钟就可以抵达。”</p>
             <div class="mobile-show">
               <div class="image-container">
                 <img src="/pif-future-of-cities/assets/images/kafd1.jpg" alt="the KAFD">
                 <p class="caption">到2030年，KAFD将拥有约6100间五星级酒店客房和品牌公寓。</p>
               </div>
             </div>
-            <p>这些以人为本的解决方案是公共投资基金（PIF）计划推动利雅得在2030年跻身全球十大城市经济体的关键。同时，它们也为未来的城市生活模式奠定了坚实基础。</p>
+            <p>这些以人为本的解决方案是PIF推动利雅得在2030年跻身全球十大城市经济体的关键举措之一。同时，也为未来的城市生活模式奠定了坚实基础。</p>
           </div>
           <div class="column desktop-show">
             <div class="image-container">
               <img src="/pif-future-of-cities/assets/images/kafd1.jpg" alt="the KAFD">
-              <p class="caption">到2030年，KAFD 将拥有约6,100间五星级酒店客房和品牌公寓。</p>
+              <p class="caption">到2030年，KAFD将拥有约6100间五星级酒店客房和品牌公寓。</p>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-cities/assets/images/desert.jpg" alt="Desert">
           <div class="column">
-            <p>由公共投资基金（PIF）拥有的超级项目NEOM正在规划未来150年的城市蓝图。该城市将绵延</p>
+            <p>NEOM是PIF旗下另一超大项目，聚焦规划未来150年的城市蓝图。从NEOM山区绵延</p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
@@ -105,7 +105,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-left"></span>
               <span class="counter" data-value="170">170</span>公里
             </h2>
-            <p>，穿越沙漠，从NEOM的山脉一直延伸到红海。THE LINE将成为世界上第一个人工智能城市，利用人工智能和其他技术，为人们提供更高品质的现代化生活。</p>
+            <p>，穿越沙漠直达红海，THE LINE将成为世界上第一个智慧认知化城市，利用人工智能和其他技术，提供更高品质的现代化生活。</p>
           </div>
         </div>
       </div>
@@ -113,27 +113,27 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>与其他城市基础设施项目建设不同，THE LINE是一个全新的城市项目。这意味着其现实和数字架构可以与当代人们的生活方式与需求同步建设。举例来说，城市中的首批居民将搬入的是他们自己在线上通过虚拟现实设计、体验并按其详细需求为他们建造的家园。</p>
-              <p>公共投资基金（PIF）通过将技术应用于城市设计的核心要素，创造出采用全球最佳的规划、实施和创新实践。这不仅提升了人们的生活水平，还确保了城市发展的可持续性。</p>
+              <p>与其他城市基础设施项目建设不同，THE LINE是一个全新创建的城市项目。这意味着可伴随人们生活同步打造实体和数字架构。例如，城市中的首批居民将搬入自己在线上通过虚拟现实科技设计、体验并按其详细需求建造的家园。</p>
+              <p>PIF将科技作为城市设计的核心要素，遵循规划、实施和创新领域的全球最佳实践，提升人们的生活水平，更确保城市发展的可持续性。</p>
               <div class="enhanced-wrapper">
-                <p class="enhanced with-border">让这些城市可持续发展需要更智能地利用周围的环境。</p>
+                <p class="enhanced with-border">要实现城市的可持续发展，需要更智能地利用周边环境。</p>
               </div>
             </div>
             <div class="column desktop-show">
-              <p class="enhanced">以人为本的解决方案是PIF计划的关键，旨在帮助利雅得在2030年前进入世界十大城市经济体。</p>
+              <p class="enhanced">以人为本的城市解决方案是PIF推动利雅得在2030年跻身全球十大城市经济体的关键举措。</p>
             </div>
           </div>
           <div class="columns">
             <div class="column">
-              <p>随着城市人口的增长，他们也将面临越来越极端的条件。在最坏的气候情景下，中东和北非地区的温度可能上升多达三摄氏度，这将给城市人口和基础设施带来压力。</p>
+              <p>伴随人口激增，城市将面临越来越严峻的环境挑战。在极端情况下，中东和北非的气温可能会再升高三摄氏度，这无疑会对城市居民生活和基础设施造成巨大压力。</p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-cities/assets/images/warefa.jpg" alt="Warefa">
                   <p class="caption">位于利雅得的ROSHN第二个社区开发项目，WAREFA中，将有11%的面积用于开放和绿色空间。</p>
                 </div>
               </div>
-              <p>许多解决方案存在于自然环境中，技术正在帮助许多PIF公司确定城市如何更好地利用周围世界。例如，在瓦迪河盆地种植更多植被可能会增加风向利雅得的流动，并自然降低温度多达5摄氏度。KAFD也在考虑周围环境的设计中，拥有一个连接所有区域的中央步行道，该步行道建在街道水平线以下以捕捉风流，并确保温度比利雅得中心区低8-10摄氏度。</p>
-              <p>然而，在非常低湿度的环境中种植过多绿植可能会对水系统造成更大的压力。传感器和人工智能对于确定在不消耗大量资源的情况下植被在哪里有效至关重要。</p>
+              <p>解决之道蕴藏在自然中。PIF旗下公司借助科技，探索如何助力城市更好地利用周边环境资源。例如，在瓦迪河盆地种植更多植被，可以加强利雅得的风流，从而自然地将温度降低多达5摄氏度。阿卜杜拉国王金融区(KAFD)的设计也考虑了周边环境，建造连接所有区域的中央步道，该步道建在街面以下可捕捉到风流，使温度比利雅得市中心低8-10摄氏度。</p>
+              <p>然而，在低湿度环境中种植过多植被会给水系统带来更大压力。利用传感器和人工智能的精准计算对于确定植被的最佳位置至关重要，这样既能有效降温，又不会过度消耗资源。</p>
             </div>
             <div class="column desktop-show">
               <div class="image-container">
@@ -150,8 +150,8 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced quote">人们认为智慧城市是关于技术本身，但它更多的是关于这项技术如何促进智能规划，”</p>
-            <p>巴拉卡特解释说，并指出，3D模型可用来确定建筑物的放置位置，以便为其后面的建筑提供遮荫，以及在哪里种植植被可以为步行道提供遮荫，而不完全遮挡自然光。</p>
+            <p class="enhanced quote">“人们常以为智慧城市只是关乎于科技本身，但更重要的是如何借助科技促进智能规划。”</p>
+            <p>巴拉卡特解释道，3D模型可用于确定建筑物的位置，以便为后排建筑提供遮阴，还可用于规划植被的位置，以便在不完全遮挡自然光的情况下为步道提供阴凉。</p>
           </div>
         </div>
       </div>
@@ -159,12 +159,12 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>智能规划在ROSHN建造的综合社区中也很明显，这是PIF的一个巨型项目，计划到2030年在沙特阿拉伯的多个城市建造超过400,000套住房。在首席执行官大卫·格罗弗的领导下，ROSHN的开发项目包括配备高科技隔热材料的住宅单元、太阳能热水器和高效空调系统——所有这些都被公共空间、绿地和自行车道环绕，以促进健康的生活方式和可步行的环境。</p>
+              <p>智能规划同样体现在ROSHN建造的一体化社区中。ROSHN是PIF投资的一个超级项目，计划到2030年在沙特阿拉伯的多个城市开发超过40万套住房，由首席执行官戴维·格罗弗(David Grover)负责。ROSHN致力于打造配备高科技隔热材料、太阳能热水器和高效空调系统的住宅单元，周边环绕着公共空间、绿地和自行车道，以便居民健康生活和舒适步行。</p>
               <div class="enhanced-wrapper">
-                <p class="enhanced with-border">要让这些城市真正可持续，它们需要动员未来的几代人。
+                <p class="enhanced with-border">要让城市真正实现可持续发展，它们需要动员未来几代人。
                 </p>
               </div>
-              <p>这些更智能的城市设计模型支撑了PIF对城市未来的蓝图，但并不定义它们。“我们非常注重沙特的文化和遗迹，以及王国各地的建筑风格变化，”格罗弗解释说。“这意味着，虽然房屋需要高质量，但也需要放在与当地建筑和社区相符的视觉包装中。”</p>
+              <p>这些更智能的城市设计模式构成了PIF未来城市蓝图的基础，却并未完全定义城市的样貌。“我们非常注重沙特的文化和历史传承，以及各地建筑风格的差异。”格罗弗解释道，“这意味着，房屋不仅需要高质量，还需要在融入当地的建筑风格和社区文化。”</p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-cities/assets/images/alarous1.jpg" alt="Alarous">
@@ -175,17 +175,17 @@ var embededHtml = `<article id="pif-infographic">
                   <p class="caption">独特的建筑风格受到该地区文化遗产的启发</p>
                 </div>
               </div>
-              <p>例如，吉达和利雅得的建筑风格差异，反映了不同的环境和文化条件。“从窗户的高度和风格到色彩调色板，一切都定义了建筑，”格罗弗说。</p>
-              <p>但PIF对城市未来的愿景不仅考虑了过去的文化传统，也考虑了未来的市民。</p>
+              <p>例如，吉达和利雅得两地建筑风格的差异恰恰反映了两地的地理和文化环境差异。“从窗户的高度和风格到色彩的搭配，所有这些都展现了当地建筑的特色，”格罗弗说。</p>
+              <p>PIF对未来城市的愿景不仅遵循文化传统，还着眼于未来的城市居民。</p>
             </div>
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-cities/assets/images/alarous1.jpg" alt="AlArous">
-                <p class="caption">ALAROUS将在吉达郊外提供18,000套新住房</p>
+                <p class="caption">吉达郊外的ALAROUS 将提供18,000套新住房。</p>
               </div>
               <div class="image-container">
                 <img src="/pif-future-of-cities/assets/images/alarous2.jpg" alt="Unique architectural styles">
-                <p class="caption">独特的建筑风格受到该地区文化遗产的启发</p>
+                <p class="caption">独特的建筑风格灵感源自该地区文化传承</p>
               </div>
             </div>
           </div>
@@ -195,22 +195,22 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-cities/assets/images/the-line-green.jpg" alt="The Line">
           <div class="column">
-            <p>例如，THE LINE, 正在为</p>
+            <p>例如，THE LINE是为</p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="9">9</span> 百万</span> <span class="block">居民</span>
+              <span class="block"><span class="counter" data-value="900">900</span> 万</span> <span class="block">来自不同背景的居民</span>
             </h2>
-            <p>殚精竭虑，这些居民来自不同的生活背景, 每个人都需要特定的服务来适应他们的生活。满足这些需求需要技术驱动的服务，这些服务能够收集个人数据点并围绕它们组织服务。</p>
+            <p>而建设，不同人群因生活方式差异而所需的服务各不相同。满足这些需求需要技术驱动服务，根据采集的个人数据提供相应服务。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section13">
         <div class="section-wrapper">
           <div class="column">
-            <p>这些不仅仅是未来的城市，而是拥有多重未来的城市。为了维持它们代代相传，你需要投资于那些将要在这些城市中生活并为之自豪的人们，让他们在未来几个世纪中继续珍视这些城市。</p>
+            <p>这些城市不仅仅是当下的未来城市，更是属于未来世代的城市。为了在世世代代中得以传承，需要投资于那些将要在其中生活的人们，使其感受到作为城市一份子的自豪感，让他们在未来的几个世纪中持续保持并且珍视这些城市。</p>
           </div>
         </div>
       </div>
@@ -218,7 +218,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-cities/assets/images/roshn.jpg" alt="100m wide canal">
           <div class="column">
-            <p>为此，城市中心正在围绕标志性地标建设。在吉达北部，一条11公里长、</p>
+            <p>为此，正在围绕标志性地标建设城市中心。在吉达北部，红海中延伸出一条11公里长、</p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
@@ -226,7 +226,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-left"></span>
               <span class="block"><span class="counter" data-value="100">100</span>米宽的运河</span>
             </h2>
-            <p>将从红海延伸出来，成为ROSHN新住宅开发项目MARAFY的中心景观。</p>
+            <p>将成为ROSHN新住宅开发项目MARAFY的中心景观。</p>
           </div>
         </div>
       </div>
@@ -234,11 +234,11 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>与此同时，新Murabba将围绕利雅得的标志性立方体建筑——Mukaab建设，该建筑将使用巨型全息技术创造一个不断变化的内部环境。巴拉卡特说，“如果你是一名年轻的沙特人，走进这样的建筑，它会激发你发展技术的愿望，并以某种方式成为未来的一部分。”他补充道：“这不是2035年、2040年或2050年的城市。”相反，这是一个为未来几代人而建的城市，为了可持续发展，它需要围绕他们而建。</p>
+              <p>与此同时，新穆拉巴的建设核心将围绕利雅得标志性立方体摩天大楼Mukaab展开。这座建筑运用全息技术，创造出不断变化的内部环境。巴拉卡特表示：“如果你是一名沙特青年，迈入这样的建筑，必将激励你去发展技术，以自己的方式为未来贡献一份力量。”他补充道：“这不仅仅是为2035年、2040年或2050年建造的城市，而是为未来的世世代代建造的城市。为了实现真正的可持续发展，需要根据未来世代的需求而建造。”</p>
             </div>
             <div class="column desktop-show">
-              <p class="enhanced quote">如果你是一名年轻的沙特人，走进这样的建筑，它将激励你想要开发技术，并以某种形式成为未来的一部分。</p>
-              <p class="caption">巴拉卡特,<br>新Murabba开发公司代理首席执行官</p>
+              <p class="enhanced quote">如果你是一名沙特青年，迈入这样的建筑，必将激励你去发展技术，以自己的方式为未来贡献一份力量。”</p>
+              <p class="caption">萨巴·巴拉卡特(Sabah Barakat),<br>新穆拉巴开发公司代理首席执行官</p>
             </div>
           </div>
         </div>
@@ -249,7 +249,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced">这是一个为未来几代人而建的城市，为了可持续发展，它需要围绕他们而建。</p>
+            <p class="enhanced">这是一个属于未来世代的城市，为了实现真正的可持续发展，需要根据未来世代的需求而建造。</p>
           </div>
         </div>
       </div>

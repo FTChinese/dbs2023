@@ -9,16 +9,16 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <h1><span>旅游业</span> <span>的未来</span></h1>
-          <h2>重新定义 <br>我们旅行的方式</h2>
-          <p><span>沙特阿拉伯对明日旅游的构想</span> <span>扎根于今日的真实</span><span>与持续发展之上。</span></p>
-          <p class="scroll">Scroll</p>
+          <h2>重新定义 <br>旅行的方式</h2>
+          <p><span>沙特阿拉伯对未来旅游的畅想</span> <span>扎根于当前的现实</span><span>与可持续发展</span></p>
+          <p class="scroll">滚动</p>
         </div>
       </div>
       <div class="section jarallax" id="section2">
         <div class="section-wrapper">
           <div class="column">
-            <p>晚餐时分，在红宫里缓缓拉开帷幕，时光定格于晚上八点。穿着深红色丝绸服饰的管家，引领宾客穿行于拱顶高耸的走廊之间，墙壁上巨幅艺术品静静诉说着历史的繁华。</p>
-            <p>入座之际，服务员恭敬地在桌心摆放上装满各式肉类和鱼类的宽阔托盘，空气中弥漫的香料芬芳，仿佛一瞬间穿梭回沙特早期的岁月，让人沉醉于那个时代的氛围之中。</p>
+            <p>晚上八点，Red Palace精品酒店内晚宴缓缓拉开帷幕。穿着深红色丝绸服饰的管家，引领宾客穿行于拱顶高耸的走廊之间，悬挂于墙壁上的巨幅艺术品静静地诉说着历史的繁华。</p>
+            <p>宾客入座，侍者恭敬地奉上装满各式肉类和鱼类的宽阔托盘，空气中弥漫的香料芬芳，仿佛一瞬间穿梭回沙特早期的岁月，让人沉醉于那个时代的氛围之中。</p>
           </div>
         </div>
       </div>
@@ -28,16 +28,16 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced quote">正是这些细节，这些时刻，定义了你对一个目的地的体验体会，</p>
-            <p>公共投资基金（PIF）旗下的酒店公司Boutique Group的首席执行官马克·德·科奇尼斯说。这家公司被委以重任，将沙特阿拉伯的几座历史宫殿转变为面向未来一代游客的景点。</p>
-            <p>保护国家丰富的文化和历史对于PIF实现经济多元化的计划至关重要，这呈现了对旅游业未来的大胆新愿景——并支持沙特阿拉伯到2030年吸引1.5亿游客的目标。</p>
+            <p class="enhanced quote">正是点滴的细节与美好的瞬间，决定了你对一个目的地的独特体验。”</p>
+            <p>公共投资基金(PIF)旗下酒店公司Boutique Group的首席执行官马克·德·科奇尼斯(Mark De Cocinis)如此表示。这家公司负责将沙特阿拉伯多座历史宫殿重新打造为面向未来一代游客的全新景点。</p>
+            <p>保护丰富的文化和历史是PIF实现经济多元化战略的核心，对旅游业的未来提出了一个大胆且全新的愿景，更是助力沙特阿拉伯实现到2030年每年吸引1.5亿游客目标的重要支撑。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section4">
         <div class="section-wrapper">
           <div class="column">
-            <h2 class="large">这始于真切的发展</h2>
+            <h2 class="large">这一切始于认真、诚恳的发展</h2>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p>距离利雅得市中心西部大约20公里处，公共投资基金（PIF）的雄心勃勃的项目正在稳步推进中，该项目旨在将沙特阿拉伯的历史发源地迪利耶变成世界上主要的文化和生活方式目的地之一。这个开发项目完全采用纳吉德建筑风格——这是一种独特的沙特建筑美学，围绕一个庭院设置——并将使用当地采购的材料，包括传统制作的泥砖和石灰石。迪利耶地区包括联合国教科文组织世界遗产阿图莱夫遗址，并反映了近300年的沙特历史。迪利耶在2022年底开放了其首批目的地，运营的前六个月内迎来了100万名游客。</p>
+            <p>在利雅得市中心往西大约20公里处，PIF正雄心勃勃地推进迪里耶(Diriyah)项目，将这个沙特阿拉伯历史发源地打造成世界知名的文化和生活休闲旅行目的地。这个项目的开发完全采用纳吉德建筑风格——一种独特的沙特建筑美学，围绕庭院设置——并就地取材，使用传统制作的泥砖和石灰石等材料。迪里耶地区坐落着名列联合国教科文组织《世界遗产名录》的At-Turaif遗址，展示近300年的沙特历史。迪里耶在2022年底向首批游客开放后，运营仅6个月就迎来了100万名游客。</p>
           </div>
         </div>
       </div>
@@ -57,8 +57,8 @@ var embededHtml = `<article id="pif-infographic">
           <div class="column">
             <div class="enhanced-wrapper">
               <p class="enhanced quote">
-			  虽然我们有Instagram和Snapchat这样的平台，这很酷，但技术只有在能够增强真实的人类体验时才真正有效——比如，它能让你与那些想知道在迪利耶应该去哪里玩，或者想感受一下手掌在泥雕上滑过的感觉的人建立联系。”</p>
-              <p><span>杰瑞·因泽里洛, 首席执行官,</span> <span>迪利耶公司</span></p>
+			  Instagram和Snapchat这样的技术确实很酷，但技术只有在能增强真实的体验时才更加有效——比如通过技术连接那些想要了解在迪里耶哪里值得一游的人，或是通过技术体验亲手触摸泥砖边沿的感受。”</p>
+              <p><span>杰瑞·因泽里洛(Jerry Inzerillo)，</span> <span>迪里耶公司首席执行官</span></p>
             </div>
           </div>
         </div>
@@ -67,39 +67,39 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>与此同时，在该国西海岸，PIF的巨型项目红海正在迎接首批游客。这个再生旅游目的地沿海岸线延伸200公里，包括90多个岛屿以及Al Wajh泻湖，这是一个以珊瑚礁、海草和红树林为中心的独特生态栖息地。</p>
-              <p>保护这一自然栖息地是一个核心使命，负责该项目的红海全球公司致力于到2040年在红海及其姐妹目的地Amaala实现30%的净保护效益。</p>
+              <p>与此同时，在沙特的西海岸，PIF的超大型项目The Red Sea正迎来首批游客。这个再生型旅游目的地绵延200公里海岸线，涵盖90多个岛屿及Al Wajh潟湖——一个以珊瑚礁、海草和红树林为核心的独特生态栖息地。</p>
+              <p>保护这一自然栖息地至关重要，负责该项目的公司Red Sea Global致力于到2040年在The Red Sea及其姊妹目的地Amaala实现30%的净保护效益。</p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
-                  <p class="caption">红海度假区将包括90个未受破坏的岛屿，每个岛屿都拥有世界上一些最独特的自然生态系统。</p>
+                  <p class="caption">Red Sea度假村包括90个未受污染的岛屿，每个岛屿都拥有独特的自然生态系统</p>
                 </div>
               </div>
-			  <p>但该公司也致力于保护沙特阿拉伯的文化遗产。红海全球公司资助数百名当地沙特人在该国一些最好的大学学习酒店管理，并在其旅游目的地提供就业机会。集团首席执行官约翰·帕加诺说：“只有他们能以真实的方式解释当地的传统和文化。”</p>
+			  <p>同时，该公司也致力于保护沙特阿拉伯的文化遗产。他们资助数百名当地人到沙特顶尖大学学习酒店管理，并在各大旅游目的地提供就业机会。集团首席执行官约翰·帕加诺(John Pagano)表示：“只有他们才能以纯正的方式传递当地的传统和文化。”</p>
             </div>
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-tourism/assets/images/red-sea.jpg" alt="Red sea">
-                <p class="caption">红海度假区将涵盖90个原始岛屿，每一个岛屿都是世界上一些最独特自然生态系统的所在地。</p>
+                <p class="caption">Red Sea度假村包括90个未受污染的岛屿，每个岛屿都拥有独特的自然生态系统</p>
               </div>
             </div>
           </div>
           <div class="columns">
             <div class="column">
-              <p class="enhanced quote">我们培训他们如何进行导览，但有些事情不需要我们来培训，比如他们的传统，他们的父母和祖父母如何在这片土地上生存的经验，以及他们的祖先如何利用星星在沙漠中导航的传说。人们渴望这些真实的体验，我们也乐于呈现这种真实。” </p>
-              <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
+              <p class="enhanced quote">我们会培训他们如何做导游，但无需培训的是他们的传统，他们的父母和祖父母在这片土地上的生存经验，以及那些他们祖先利用星星在沙漠中导航的传说。人们渴望了解这些真实的体验，而我们正积极展现这一点。”</p>
+              <p class="author"><span>约翰·帕加诺(John Pagano)，</span> <span>Red Sea Global首席执行官</span></p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
-                  <p class="caption">位于国家发源地迪利耶中心的泥砖萨尔瓦宫。</p>
+                  <p class="caption">位于沙特发源地迪里耶中心的泥砖建筑萨尔瓦宫(Salwa Palace)</p>
                 </div>
               </div>
-              <p>PIF旗下的Cruise Saudi的首席执行官拉斯·克拉森认为，真实性是任何旅游业务中的一个至关重要的品质，不仅能为客人提供沉浸式体验，也有助于促进运营。“沙特阿拉伯丰富的文化是吸引国际游客前来的原因，迄今为止，Cruise Saudi已迎来了超过300,000名乘客，代表了120多个国籍。然而，这意味着存在着各种不同的文化和期望——包括不同的食物偏好、音乐品味甚至日常时间表的不同。因此，提供一种真正具有沙特特色的体验，使我们的乘客在共享的体验中找到共鸣。”</p>
+              <p>PIF旗下Cruise Saudi的首席执行官拉尔斯·克拉森(Lars Clasen)认为，在任何旅游业中，真实感都是至关重要，它不仅能为客人提供沉浸式体验，还能优化运营。克拉森表示：“沙特阿拉伯丰富的文化吸引了许多国际游客，截至目前，Cruise Saudi已接待超过30万名来自120多个国家/地区的游客。这意味着Cruise Saudi需要考虑到，顾客拥有不同的文化背景和预期——从饮食偏好、音乐品味到日常时间安排各不相同。因此，提供一个具有纯正沙特风情的体验，可以让我们的顾客在共同的体验中找到共鸣。”</p>
             </div>
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-tourism/assets/images/salwa-palace.jpg" alt="Salwa Palace">
-                <p class="caption">位于国家发源地迪利耶中心的泥砖萨尔瓦宫</p>
+                <p class="caption">位于沙特发源地迪里耶中心的泥砖建筑萨尔瓦宫(Salwa Palace)</p>
               </div>
             </div>
           </div>
@@ -109,26 +109,26 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/underwater.jpg" alt="Underwater">
           <div class="column">
-            <p>旨在迎接 </p>
+            <p>为了迎接每年 </p>
             <h2 class="boxed">
               <span class="border-top"></span>
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="130">130</span>万</span><span class="block">游客每年</span>
+              <span class="block"><span class="counter" data-value="130">130</span>万</span><span class="block">游客</span>
             </h2>
-            <p>Cruise Saudi正在不断扩展其基础设施以适应不断增长的客流量，目前有三个港口在运营，四个在建设中，还有三个在规划中。</p>
+            <p>Cruise Saudi正在不断扩展基础设施以适应客流增长。目前已有三个港口在运营中，四个港口处于建设中，还有三个港口出于规划阶段。</p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section9">
         <div class="section-wrapper">
           <div class="column">
-            <p>此外，该公司新推出的AROYA Cruise将提供一种“极具阿拉伯特色”的体验，它是第一条针对海湾合作委员会（GCC）观众偏好设计的邮轮线路。它旨在提供一个独特的新概念，用于度假和探索红海及更远的地方。Cruise Saudi还与Aman Resorts酒店公司合作，计划到2027年推出一艘面向超高净值个人的豪华游艇“Aman at Sea”。</p>
+            <p>此外，该公司新推出的AROYA邮轮将提供“极具阿拉伯特色”的体验。这是首条针对海合会(GCC)地区受众偏好而设计的邮轮路线，旨在为红海及更远地区的度假和探索提供独具特色的新选择。Cruise Saudi还将与酒店公司Aman Resorts合作，在2027年推出一艘名为“Aman at Sea”的豪华游艇，服务超高净值人群。</p>
             <div class="enhanced-wrapper">
-              <p class="enhanced with-border">但旅游业的未来需要我们今天扮演好管家的角色</p>
+              <p class="enhanced with-border">然而旅游业的未来需要我们从今天起就肩负起守护者的责任</p>
             </div>
-            <p>自20世纪50年代末航空旅行大规模商业化以来，旅游业的未来曾是一个相对简单的等式：来的游客越多，对经济越有利。但今天，我们知道这种方法是有局限性的。</p>
+            <p>自20世纪50年代末航空旅行大规模商业化后，对旅游业未来的认知曾相对简单：来访的人越多，对经济就越好。但今天，我们已经了解到这种方式有其局限性。</p>
           </div>
         </div>
       </div>
@@ -136,16 +136,16 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/door.jpg" alt="The door">
           <div class="column">
-            <p class="enhanced quote">随着越来越多游客涌入沙特阿拉伯，我们必须格外小心，避免破坏那些极其珍贵独特的事物，或是压垮那些本不适合承载大量人口的社区。我们需要勇气坦诚地说：我们不能这样做。”</p>
-            <p class="author"><span>杰瑞·因泽里洛, 首席执行官,</span> <span>迪利耶公司</span></p>
+            <p class="enhanced quote">随着越来越多的游客涌入沙特阿拉伯，我们必须格外小心谨慎，避免破坏那些独特的文化与生活方式，也不能压垮那些原本不适合容纳大量旅客的区域。我们需要有勇气说：我们不能这样做。”</p>
+            <p class="author"><span>杰瑞·因泽里洛(Jerry Inzerillo)，</span> <span>迪里耶公司首席执行官</span></p>
           </div>
         </div>
       </div>
       <div class="section jarallax" id="section11">
         <div class="section-wrapper">
           <div class="column">
-            <p>科技提供了技术方法来模拟旅游对不同地方的影响。在沙特阿拉伯西北部，数字孪生技术和人工智能被用来确定游客如何参观古城AlUla而不影响历史环境。</p>
-            <p>保护沙特阿拉伯独特的自然环境也是PIF愿景的关键部分，无论是该国西南部的野生山地风光Al Soudah，还是红海的珊瑚礁。</p>
+            <p>通过科技能建立模型，来评估旅游业对不同地方的影响。在沙特阿拉伯的西北部，数字孪生技术和人工智能被用于制定方案，确保游客在不破坏古城埃尔奥拉(AlUla)历史环境的情况下进行参观。</p>
+            <p>无论是西南部艾苏达(Al Soudah)的壮丽山地景观，还是红海的珊瑚礁，保护沙特阿拉伯独特的自然环境都是PIF愿景中的关键部分。</p>
           </div>
         </div>
       </div>
@@ -155,7 +155,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced">乘坐Cruise Saudi的游客将能访问六个联合国教科文组织世界遗产地点，包括赫格拉的玛达因萨利赫古代岩石雕刻，其历史可以追溯到公元一世纪。</p>
+            <p class="enhanced">乘坐Cruise Saudi的游客将能访问六大联合国教科文组织世界遗产景点，包括Mada’in Saleh古代石雕遗址，其历史可以追溯到公元1世纪</p>
           </div>
         </div>
       </div>
@@ -163,9 +163,9 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/turtle.jpg" alt="Turtle">
           <div class="column">
-            <p class="enhanced quote">我们对我们群岛中的90个岛屿进行了空间规划模拟，以找到我们度假村的最佳位置。但当我们发现我们最喜欢的岛屿也是濒临灭绝的玳瑁海龟的筑巢地后，我们决定不在那里建设。 </p>
-            <p class="enhanced">这些生态系统既美丽又脆弱。红海全球使用装有传感器的浮标来监测任何活动是否影响了水的自然成分。”</p>
-            <p class="author"><span>约翰·帕加诺, 首席执行官,</span> <span>红海全球</span></p>
+            <p class="enhanced quote">起初，我们针对群岛中90个岛屿建立了空间规划模拟，以确定度假村的最佳位置。但当我们发现最佳岛屿是濒临灭绝的玳瑁海龟筑巢地后，我们决定放弃在那里建设度假村的计划。 </p>
+            <p class="enhanced">这些生态系统既美丽又脆弱。Red Sea Global使用装有传感器的浮标来监测是否有任何活动影响水质。”</p>
+            <p class="author"><span>约翰·帕加诺(John Pagano)，</span> <span>Red Sea Global首席执行官</span></p>
           </div>
         </div>
       </div>
@@ -173,22 +173,22 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <div class="columns">
             <div class="column">
-              <p>可持续性也是PIF五个巨型项目之一NEOM未来旅游愿景的核心。在沙特阿拉伯西北部形成的旗舰区域包括一个奢华的岛屿——Sindalah，以及NEOM全年开放的山地目的地Trojena，该地是该区域首个户外滑雪体验地点。</p>
-              <p>位于亚喀巴湾的Epicon是NEOM最新的奢华海滨旅游目的地。宛如沙漠中的闪耀幻影般升起，该项目将特设两座引人注目的塔楼，一座高225米，另一座高达275米，内设超豪华酒店和奢侈住宅。</p>
-              <p>EOM旅游目的地Leyja于10月宣布，进一步丰富了沙特阿拉伯的生态旅游产品。该开发项目包括三家酒店，从亚喀巴湾的西海岸开始，然后向内陆蜿蜒，形成一个夹在高达400米的山峰之间的自然山谷。在Leyja的总面积中，95%将被保留为自然状态，并将结合创新的生态设计和建筑技术。</p>
+              <p>可持续性也是PIF五大巨型项目之一NEOM项目的核心。该项目位于沙特西北部的旗舰开发区域既包含豪华岛屿Sindalah，也包括NEOM全年开放的山区旅游目的地Trojena——该地区首个户外滑雪圣地。</p>
+              <p>而位于亚喀巴湾的Epicon是NEOM最新的豪华海岸旅游目的地。该项目从沙漠景观中拔地而起，宛如闪耀的幻影般升起。该项目将包含两座引人注目的大厦，一座高225米，另一座高275米，内设超豪华酒店和高端住宅。</p>
+              <p>10月，NEOM宣布推出旅游目的地Leyja，丰富了沙特阿拉伯的生态旅游产品。该项目包括三家酒店，从亚喀巴湾沿岸向内陆延伸，形成一个在高达400米的山峰之间开凿出的天然山谷。在Leyja的总面积中， 95%的自然景观将被保留，并应用创新的生态设计和建筑技术。</p>
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
                   <p class="caption">位于沙特阿拉伯西北部Leyja的三家酒店之一，这家酒店将显著地位于瓦地最大绿洲的中心。其令人印象深刻的楼梯从峡谷上升至酒店入口，旨在提供无与伦比的山谷景观</p>
                 </div>
               </div>
-              <p>这不仅仅是为了可持续性而可持续：这是确保沙特阿拉伯旅游业长远成功的战略必需。</p>
-              <p>旅游业的未来依赖于我们今天的行动。帕加诺说：“无论我们做什么，我们必须确保保护这个生态系统；不仅是为了沙特阿拉伯自身的旅游业，也因为开创这一模式可以帮助我们引领全球对发展和旅游的思考方式的转变。”</p>
+              <p>这不是为了可持续发展而可持续发展，而是为确保沙特旅游业长青而必需采取的战略举措。</p>
+              <p>旅游业的未来取决于我们今天的行动。帕加诺(Pagano)表示：“无论我们做什么，都必须确保保护这个生态系统。这不仅是为了沙特阿拉伯自身的旅游业，也是因为开创这一模式可以帮助我们引领全球旅游业思潮转变。”</p>
             </div>
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
-                <p class="caption">位于沙特阿拉伯西北部Leyja的三家酒店之一，这家酒店将显著地位于瓦地最大绿洲的中心。其令人印象深刻的楼梯从峡谷上升至酒店入口，旨在提供无与伦比的山谷景观</p>
+                <p class="caption">沙特阿拉伯西北部Leyja的三家酒店之一，位于山谷最大绿洲的中心。从峡谷到酒店入口楼梯令人印象深刻，旨在提供无与伦比的山谷景观</p>
               </div>
             </div>
           </div>
@@ -198,7 +198,7 @@ var embededHtml = `<article id="pif-infographic">
         <div class="section-wrapper">
           <img class="jarallax-img" src="/pif-future-of-tourism/assets/images/leyja1.jpg" alt="Leyja">
           <div class="column">
-            <p class="enhanced">在Leyja的总面积中，95%将被保留为自然用途，并将结合创新的生态设计与建筑技术。</p>
+            <p class="enhanced">在Leyja的总面积中， 95%的自然景观将被保留，并应用创新的生态设计和建筑技术</p>
           </div>
         </div>
       </div>
