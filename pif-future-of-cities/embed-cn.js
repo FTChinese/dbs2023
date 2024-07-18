@@ -22,7 +22,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-right"></span>
               <span class="border-bottom"></span>
               <span class="border-left"></span>
-              <span class="block"><span class="counter" data-value="50">50</span> 座</span> <span class="block">t天桥</span>
+              <span class="block"><span class="counter" data-value="50">50</span> 座</span> <span class="block">天桥</span>
             </h2>
             <p>之一上，边品尝咖啡，边观赏着整个利雅得在朝阳中逐渐苏醒，焕发出蓬勃生机。电梯快速升降，将穿着运动装的通勤者送至空中跑道，与此同时，喷水器正在浇灌城市高大玻璃立面上的垂直花园。</p>
           </div>
