@@ -150,7 +150,7 @@ var embededHtml = `<article id="pif-infographic">
         </div>
         <div class="section-wrapper">
           <div class="column">
-            <p class="enhanced quote">“人们常以为智慧城市只是关乎于科技本身，但更重要的是如何借助科技促进智能规划。”</p>
+            <p class="enhanced quote">人们常以为智慧城市只是关乎于科技本身，但更重要的是如何借助科技促进智能规划。”</p>
             <p>巴拉卡特解释道，3D模型可用于确定建筑物的位置，以便为后排建筑提供遮阴，还可用于规划植被的位置，以便在不完全遮挡自然光的情况下为步道提供阴凉。</p>
           </div>
         </div>
