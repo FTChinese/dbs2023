@@ -256,7 +256,7 @@ var embededHtml = `<article id="pif-infographic">
       <div class="section" id="section17">
         <div class="section-wrapper">
           <div class="cta-container">
-            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-cities" target="_blank" rel="noopener"><span>探索 <strong>更多</strong></span></a>
+            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-cities" target="_blank" rel="noopener"><span>探索<strong>更多</strong></span></a>
           </div>
         </div>
       </div>

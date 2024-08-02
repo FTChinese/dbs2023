@@ -117,7 +117,7 @@ var embededHtml = `<article id="pif-infographic">
               <span class="border-left"></span>
               <span class="block"><span class="counter" data-value="130">130</span>万</span><span class="block">游客</span>
             </h2>
-            <p>Cruise Saudi正在不断扩展基础设施以适应客流增长。目前已有三个港口在运营中，四个港口处于建设中，还有三个港口出于规划阶段。</p>
+            <p>Cruise Saudi正在不断扩展基础设施以适应客流增长。目前已有三个港口在运营中，四个港口处于建设中，还有三个港口处于规划阶段。</p>
           </div>
         </div>
       </div>
@@ -179,7 +179,7 @@ var embededHtml = `<article id="pif-infographic">
               <div class="mobile-show">
                 <div class="image-container">
                   <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
-                  <p class="caption">位于沙特阿拉伯西北部Leyja的三家酒店之一，这家酒店将显著地位于瓦地最大绿洲的中心。其令人印象深刻的楼梯从峡谷上升至酒店入口，旨在提供无与伦比的山谷景观</p>
+                  <p class="caption">沙特阿拉伯西北部Leyja的三家酒店之一，位于山谷最大绿洲的中心。从峡谷到酒店入口楼梯令人印象深刻，旨在提供无与伦比的山谷景观。</p>
                 </div>
               </div>
               <p>这不是为了可持续发展而可持续发展，而是为确保沙特旅游业长青而必需采取的战略举措。</p>
@@ -188,7 +188,7 @@ var embededHtml = `<article id="pif-infographic">
             <div class="column desktop-show">
               <div class="image-container">
                 <img src="/pif-future-of-tourism/assets/images/leyja.jpg" alt="Leyja">
-                <p class="caption">沙特阿拉伯西北部Leyja的三家酒店之一，位于山谷最大绿洲的中心。从峡谷到酒店入口楼梯令人印象深刻，旨在提供无与伦比的山谷景观</p>
+                <p class="caption">沙特阿拉伯西北部Leyja的三家酒店之一，位于山谷最大绿洲的中心。从峡谷到酒店入口楼梯令人印象深刻，旨在提供无与伦比的山谷景观。</p>
               </div>
             </div>
           </div>
@@ -205,7 +205,7 @@ var embededHtml = `<article id="pif-infographic">
       <div class="section" id="section16">
         <div class="section-wrapper">
           <div class="cta-container">
-            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-tourism" target="_blank" rel="noopener"><span>探索 <strong>更多</strong></span></a>
+            <a class="cta-link" href="https://www.pif.gov.sa/en/Pages/Homepage.aspx?utm_source=ft&utm_medium=referral&utm_campaign=ft-partnership&utm_content=future-of-tourism" target="_blank" rel="noopener"><span>探索<strong>更多</strong></span></a>
           </div>
         </div>
       </div>
