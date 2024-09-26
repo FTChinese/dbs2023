@@ -2724,16 +2724,27 @@ footer,header {
 .txHF5 .r0y0P {
     color: #2d2dff;
     font-size: 17px;
+    line-height: normal;
+    text-transform: uppercase
+}
+
+.txHF5 .r0y0P,.txHF5 .twukY {
     font-style: normal;
     font-weight: 300;
-    line-height: normal;
-    text-transform: uppercase;
     margin-bottom: 20px;
     position: relative
 }
 
+.txHF5 .twukY {
+    font-size: 12px;
+    line-height: 15px;
+    color: #0c0dfe;
+    margin-top: 20px
+}
+
 .txHF5 .hL8dM {
     display: flex;
+    flex-direction: column;
     justify-content: center
 }
 
@@ -2758,6 +2769,7 @@ footer,header {
     margin-bottom: 25px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     opacity: 0
 }
 
