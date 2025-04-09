@@ -1194,47 +1194,52 @@
  <script>
   let ccPlayerLoaded = false;
 
- document.addEventListener("DOMContentLoaded", function () {
-  let ccPlayerLoaded = false;
-  const globalTabContent = document.querySelector("#global");
-
-  // 创建一个观察器实例
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
+  const observer = new MutationObserver(function (mutationsList) {
+    for (const mutation of mutationsList) {
       if (
-        mutation.attributeName === "style" ||
+        mutation.type === "attributes" &&
+        mutation.target.id === "global" &&
         mutation.attributeName === "class"
       ) {
-        const isVisible = document.querySelector("#global") !== "none";
+        const isVisible = mutation.target.classList.contains("current");
         if (isVisible && !ccPlayerLoaded) {
           ccPlayerLoaded = true;
-          initializeCCPlayer();
-          observer.disconnect(); // 初始化后停止观察
+          loadCCPlayer();
         }
       }
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const globalTabContent = document.getElementById("global");
+
+    if (!globalTabContent) {
+      console.warn("Global tab content not found!");
+      return;
+    }
+
+    observer.observe(globalTabContent, {
+      attributes: true,
+      attributeFilter: ["class"]
     });
   });
 
-  // 配置观察选项：观察属性变动
-  const config = { attributes: true, attributeFilter: ["style", "class"] };
-
-  // 开始观察
-  observer.observe(document.querySelector("#global"), config);
-
-  // 初始化播放器的函数
-  function initializeCCPlayer() {
+  function loadCCPlayer() {
     const container = document.createElement("div");
     container.id = "ccvideoContainer";
-    document.querySelector("#global").querySelector(".section").prepend(container);
+    const targetSection = document.querySelector("#global .section");
 
-    const script = document.createElement("script");
-    script.src =
-      "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
-    container.appendChild(script);
+    if (targetSection) {
+      targetSection.prepend(container);
+      const script = document.createElement("script");
+      script.src = "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
+      container.appendChild(script);
+    } else {
+      console.warn("Target section in global tab not found!");
+    }
   }
-});
-
 </script>
+
 
 
   <script src="/cms/jquery.min.3.6.0.js"></script>
