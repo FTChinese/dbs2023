@@ -176,8 +176,6 @@
   gtag('config', 'G-EJL596RE7S');
 </script>
 
-<script class="ccH5VideoScriptTag" src="https://p.bokecc.com/js/newplayer/h5player-3.5.12.js"></script>
-
 </head>
 <body class="pc">
   <noscript>
@@ -1196,76 +1194,36 @@
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
   
-  <script>
+ <script>
   let ccPlayerLoaded = false;
 
-  // 点击 tab 时触发的监听器
   document.addEventListener("DOMContentLoaded", function () {
-    const globalTabButton = document.querySelector('[data-tab="global"]');
-    const globalTabContent = document.querySelector('#global');
+    const tabGlobalBtn = document.querySelector('[data-tab="global"]');
+    const tabGlobalContent = document.getElementById("global");
 
-    if (!globalTabButton || !globalTabContent) {
-      console.warn("Global tab button or content not found.");
-      return;
-    }
+    if (!tabGlobalBtn || !tabGlobalContent) return;
 
-    // 点击“2023”tab时触发加载
-    globalTabButton.addEventListener("click", function () {
+    tabGlobalBtn.addEventListener("click", () => {
       if (ccPlayerLoaded) return;
 
-      // 延迟确保 tab 展示完成
       setTimeout(() => {
-        const containerId = "ccvideoContainer";
-        let container = document.getElementById(containerId);
-        if (!container) {
-          container = document.createElement("div");
-          container.id = containerId;
-          const firstSection = globalTabContent.querySelector(".section");
-          if (firstSection) {
-            firstSection.prepend(container);
-          }
-        }
+        const container = document.createElement("div");
+        container.id = "ccvideoContainer";
+        const targetSection = tabGlobalContent.querySelector(".section");
+        if (targetSection) {
+          targetSection.prepend(container);
 
-        // 初始化播放器（用已有的 h5player 脚本）
-        loadCCPlayer(containerId);
-        ccPlayerLoaded = true;
-      }, 300); // 保证 tab 内容已经渲染
+          const script = document.createElement("script");
+          script.src =
+            "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
+          script.type = "text/javascript";
+          container.appendChild(script);
+
+          ccPlayerLoaded = true;
+        }
+      }, 300); // 保证 tab 内容显示
     });
   });
-
-function loadCCPlayer(containerId) {
-  const playerConfig = {
-    vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
-    siteid: "922662811F1A49E9",
-    autoStart: true,
-    width: 1080,
-    height: 608.3,
-    container: containerId,
-  };
-
-  // 等待 h5player 全部加载
-  let maxWait = 5000; // 最多等 5 秒
-  let interval = 200;
-
-  const waitForPlayer = setInterval(() => {
-    if (window._h5player && typeof window._h5player.init === "function") {
-      clearInterval(waitForPlayer);
-      try {
-        window._h5player.init(playerConfig);
-        console.log("✅ BokeCC 播放器已成功初始化！");
-      } catch (e) {
-        console.error("❌ 初始化播放器失败：", e);
-      }
-    } else {
-      maxWait -= interval;
-      if (maxWait <= 0) {
-        clearInterval(waitForPlayer);
-        console.error("❌ 超时：BokeCC player script 加载失败或未初始化 _h5player。");
-      }
-    }
-  }, interval);
-}
-
 </script>
 
   
