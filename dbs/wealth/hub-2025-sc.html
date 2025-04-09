@@ -1233,28 +1233,39 @@
     });
   });
 
-  function loadCCPlayer(containerId) {
-    if (!window._h5player || !window._h5player.init) {
-      console.warn("BokeCC player script not ready yet.");
-      return;
-    }
+function loadCCPlayer(containerId) {
+  const playerConfig = {
+    vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
+    siteid: "922662811F1A49E9",
+    autoStart: true,
+    width: 1080,
+    height: 608.3,
+    container: containerId,
+  };
 
-    // 初始化播放器配置
-    const playerConfig = {
-      vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
-      siteid: "922662811F1A49E9",
-      autoStart: true,
-      width: 1080,
-      height: 608.3,
-      container: containerId,
-    };
+  // 等待 h5player 全部加载
+  let maxWait = 5000; // 最多等 5 秒
+  let interval = 200;
 
-    try {
-      window._h5player.init(playerConfig);
-    } catch (e) {
-      console.error("Failed to initialize BokeCC player:", e);
+  const waitForPlayer = setInterval(() => {
+    if (window._h5player && typeof window._h5player.init === "function") {
+      clearInterval(waitForPlayer);
+      try {
+        window._h5player.init(playerConfig);
+        console.log("✅ BokeCC 播放器已成功初始化！");
+      } catch (e) {
+        console.error("❌ 初始化播放器失败：", e);
+      }
+    } else {
+      maxWait -= interval;
+      if (maxWait <= 0) {
+        clearInterval(waitForPlayer);
+        console.error("❌ 超时：BokeCC player script 加载失败或未初始化 _h5player。");
+      }
     }
-  }
+  }, interval);
+}
+
 </script>
 
   
