@@ -1191,8 +1191,6 @@
     </div>
   </div>
   
-  <script src="/cms/jquery.min.3.6.0.js"></script>
-  <script src="/cms/main.js"></script>
  <script>
   let ccPlayerLoaded = false;
 
@@ -1207,7 +1205,7 @@
         mutation.attributeName === "style" ||
         mutation.attributeName === "class"
       ) {
-        const isVisible = window.getComputedStyle(globalTabContent).display !== "none";
+        const isVisible = document.querySelector("#global") !== "none";
         if (isVisible && !ccPlayerLoaded) {
           ccPlayerLoaded = true;
           initializeCCPlayer();
@@ -1221,13 +1219,13 @@
   const config = { attributes: true, attributeFilter: ["style", "class"] };
 
   // 开始观察
-  observer.observe(globalTabContent, config);
+  observer.observe(document.querySelector("#global"), config);
 
   // 初始化播放器的函数
   function initializeCCPlayer() {
     const container = document.createElement("div");
     container.id = "ccvideoContainer";
-    globalTabContent.querySelector(".section").prepend(container);
+    document.querySelector("#global").querySelector(".section").prepend(container);
 
     const script = document.createElement("script");
     script.src =
@@ -1239,4 +1237,6 @@
 </script>
 
 
+  <script src="/cms/jquery.min.3.6.0.js"></script>
+  <script src="/cms/main.js"></script>
 </body></html>
