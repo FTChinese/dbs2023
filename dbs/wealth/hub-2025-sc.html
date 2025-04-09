@@ -358,7 +358,6 @@
             </article>
 
             <section class="section">
-<div id="ccvideoContainer"></div>
             </section>
             <section class="section">
               <div class="container-lg">
@@ -1194,24 +1193,26 @@
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
   
- <script>
+<script>
   let ccPlayerLoaded = false;
 
   document.addEventListener("DOMContentLoaded", function () {
-    const tabGlobalBtn = document.querySelector('[data-tab="global"]');
-    const tabGlobalContent = document.getElementById("global");
+    const globalTabButton = document.querySelector('[data-tab="global"]');
+    const globalTabContent = document.getElementById("global");
 
-    if (!tabGlobalBtn || !tabGlobalContent) return;
+    if (!globalTabButton || !globalTabContent) return;
 
-    tabGlobalBtn.addEventListener("click", () => {
+    globalTabButton.addEventListener("click", () => {
       if (ccPlayerLoaded) return;
 
+      // 等 tab 内容完全显示后再加载播放器
       setTimeout(() => {
         const container = document.createElement("div");
         container.id = "ccvideoContainer";
-        const targetSection = tabGlobalContent.querySelector(".section");
-        if (targetSection) {
-          targetSection.prepend(container);
+        const firstSection = globalTabContent.querySelector(".section");
+
+        if (firstSection) {
+          firstSection.prepend(container);
 
           const script = document.createElement("script");
           script.src =
@@ -1221,10 +1222,11 @@
 
           ccPlayerLoaded = true;
         }
-      }, 300); // 保证 tab 内容显示
+      }, 300); // 延迟保证 tab 已切换可见
     });
   });
 </script>
+
 
   
 </body></html>
