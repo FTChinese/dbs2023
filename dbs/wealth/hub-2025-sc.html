@@ -1196,37 +1196,37 @@
 <script>
   let ccPlayerLoaded = false;
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const globalTabButton = document.querySelector('[data-tab="global"]');
-    const globalTabContent = document.getElementById("global");
+  document.addEventListener("DOMContentLoaded", () => {
+    const tabButton = document.querySelector('[data-tab="global"]');
 
-    if (!globalTabButton || !globalTabContent) return;
-
-    globalTabButton.addEventListener("click", () => {
+    tabButton?.addEventListener("click", () => {
       if (ccPlayerLoaded) return;
 
-      // 等 tab 内容完全显示后再加载播放器
       setTimeout(() => {
+        // 清除旧播放器 DOM（如有）
+        const old = document.getElementById("ccvideoContainer");
+        if (old) old.remove();
+
+        const section = document.querySelector('#global .section');
+        if (!section) return;
+
+        // 插入新容器
         const container = document.createElement("div");
         container.id = "ccvideoContainer";
-        const firstSection = globalTabContent.querySelector(".section");
+        section.prepend(container);
 
-        if (firstSection) {
-          firstSection.prepend(container);
+        // 插入播放器脚本
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src =
+          "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
+        container.appendChild(script);
 
-          const script = document.createElement("script");
-          script.src =
-            "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
-          script.type = "text/javascript";
-          container.appendChild(script);
-
-          ccPlayerLoaded = true;
-        }
-      }, 300); // 延迟保证 tab 已切换可见
+        ccPlayerLoaded = true;
+      }, 300); // 保证 tab 内容已可见
     });
   });
 </script>
-
 
   
 </body></html>
