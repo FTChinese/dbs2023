@@ -176,6 +176,8 @@
   gtag('config', 'G-EJL596RE7S');
 </script>
 
+<script class="ccH5VideoScriptTag" src="https://p.bokecc.com/js/newplayer/h5player-3.5.12.js"></script>
+
 </head>
 <body class="pc">
   <noscript>
@@ -358,7 +360,30 @@
             </article>
 
             <section class="section">
+<div id="ccvideoContainer"></div>
+<script>
+  function initCCPlayer() {
+    var player = {
+      vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
+      siteid: "922662811F1A49E9",
+      autoStart: true,
+      width: 1080,
+      height: 608.3,
+    };
+    window._h5player && window._h5player.init && window._h5player.init(player);
+  }
 
+  // 等 h5player 脚本完全加载后执行
+  function waitForPlayerReady() {
+    if (window._h5player && window._h5player.init) {
+      initCCPlayer();
+    } else {
+      setTimeout(waitForPlayerReady, 100);
+    }
+  }
+
+  waitForPlayerReady();
+</script>
             </section>
             <section class="section">
               <div class="container-lg">
@@ -1191,57 +1216,6 @@
     </div>
   </div>
   
- <script>
-  let ccPlayerLoaded = false;
-
-  const observer = new MutationObserver(function (mutationsList) {
-    for (const mutation of mutationsList) {
-      if (
-        mutation.type === "attributes" &&
-        mutation.target.id === "global" &&
-        mutation.attributeName === "class"
-      ) {
-        const isVisible = mutation.target.classList.contains("current");
-        if (isVisible && !ccPlayerLoaded) {
-          ccPlayerLoaded = true;
-          loadCCPlayer();
-        }
-      }
-    }
-  });
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const globalTabContent = document.getElementById("global");
-
-    if (!globalTabContent) {
-      console.warn("Global tab content not found!");
-      return;
-    }
-
-    observer.observe(globalTabContent, {
-      attributes: true,
-      attributeFilter: ["class"]
-    });
-  });
-
-  function loadCCPlayer() {
-    const container = document.createElement("div");
-    container.id = "ccvideoContainer";
-    const targetSection = document.querySelector("#global .section");
-
-    if (targetSection) {
-      targetSection.prepend(container);
-      const script = document.createElement("script");
-      script.src = "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
-      container.appendChild(script);
-    } else {
-      console.warn("Target section in global tab not found!");
-    }
-  }
-</script>
-
-
-
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
 </body></html>
