@@ -361,29 +361,6 @@
 
             <section class="section">
 <div id="ccvideoContainer"></div>
-<script>
-  function initCCPlayer() {
-    var player = {
-      vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
-      siteid: "922662811F1A49E9",
-      autoStart: true,
-      width: 1080,
-      height: 608.3,
-    };
-    window._h5player && window._h5player.init && window._h5player.init(player);
-  }
-
-  // 等 h5player 脚本完全加载后执行
-  function waitForPlayerReady() {
-    if (window._h5player && window._h5player.init) {
-      initCCPlayer();
-    } else {
-      setTimeout(waitForPlayerReady, 100);
-    }
-  }
-
-  waitForPlayerReady();
-</script>
             </section>
             <section class="section">
               <div class="container-lg">
@@ -1218,4 +1195,67 @@
   
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
+  
+  <script>
+  let ccPlayerLoaded = false;
+
+  // 点击 tab 时触发的监听器
+  document.addEventListener("DOMContentLoaded", function () {
+    const globalTabButton = document.querySelector('[data-tab="global"]');
+    const globalTabContent = document.querySelector('#global');
+
+    if (!globalTabButton || !globalTabContent) {
+      console.warn("Global tab button or content not found.");
+      return;
+    }
+
+    // 点击“2023”tab时触发加载
+    globalTabButton.addEventListener("click", function () {
+      if (ccPlayerLoaded) return;
+
+      // 延迟确保 tab 展示完成
+      setTimeout(() => {
+        const containerId = "ccvideoContainer";
+        let container = document.getElementById(containerId);
+        if (!container) {
+          container = document.createElement("div");
+          container.id = containerId;
+          const firstSection = globalTabContent.querySelector(".section");
+          if (firstSection) {
+            firstSection.prepend(container);
+          }
+        }
+
+        // 初始化播放器（用已有的 h5player 脚本）
+        loadCCPlayer(containerId);
+        ccPlayerLoaded = true;
+      }, 300); // 保证 tab 内容已经渲染
+    });
+  });
+
+  function loadCCPlayer(containerId) {
+    if (!window._h5player || !window._h5player.init) {
+      console.warn("BokeCC player script not ready yet.");
+      return;
+    }
+
+    // 初始化播放器配置
+    const playerConfig = {
+      vid: "946D0DB0ADBDBC83753C612EB38A8D5A",
+      siteid: "922662811F1A49E9",
+      autoStart: true,
+      width: 1080,
+      height: 608.3,
+      container: containerId,
+    };
+
+    try {
+      window._h5player.init(playerConfig);
+    } catch (e) {
+      console.error("Failed to initialize BokeCC player:", e);
+    }
+  }
+</script>
+
+  
 </body></html>
