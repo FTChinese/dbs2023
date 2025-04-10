@@ -357,7 +357,7 @@
               </div>
             </article>
 <section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-  <div id="videoContainer"></div>
+  <div id="videoContainer" style="text-align:center;"></div>
 </section>
 			</section>
             <section class="section">
@@ -1200,6 +1200,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!globalTab) return;
 
+  let videoLoaded = false;
+  
   globalTab.addEventListener("click", function () {
     const wrapper = document.getElementById("ccvideoWrapper");
     const container = document.getElementById("videoContainer");
@@ -1211,9 +1213,27 @@ document.addEventListener("DOMContentLoaded", function () {
       wrapper.style.overflow = "visible";
       wrapper.style.pointerEvents = "auto";
       
-      // 创建iframe
-      container.innerHTML = '<iframe src="https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true" width="100%" height="608" frameborder="0" allowfullscreen></iframe>';
+      // 只在第一次点击时加载视频
+      if (!videoLoaded) {
+        // 使用Bokecc提供的iframe代码
+        container.innerHTML = '<iframe id="cciframe_946D0DB0ADBDBC83753C612EB38A8D5A" src="https://p.bokecc.com/playhtml.bo?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&playerid=3571A3BF2AEC8829&playertype=1" frameborder="0" height="608" width="100%" allowfullscreen></iframe>';
+        videoLoaded = true;
+      }
     }
+  });
+  
+  // 添加监听其他标签点击，确保切换标签时隐藏视频
+  const otherTabs = document.querySelectorAll('.tab__item:not([data-tab="global"])');
+  otherTabs.forEach(tab => {
+    tab.addEventListener("click", function() {
+      const wrapper = document.getElementById("ccvideoWrapper");
+      if (wrapper) {
+        wrapper.style.opacity = "0";
+        wrapper.style.height = "1px";
+        wrapper.style.overflow = "hidden";
+        wrapper.style.pointerEvents = "none";
+      }
+    });
   });
 });
 </script>
