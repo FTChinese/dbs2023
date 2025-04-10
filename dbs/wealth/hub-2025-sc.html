@@ -131,38 +131,7 @@
     });
   </script>
   <script async src="/cms/e1c3fd73-dd41-4abd-b80b-4278d52bf7aa-web.js"></script>
-  <script>
-    const hasConsentedToBehaviouralAds = () => {
-      const consentValue = getCookieValue('FTConsent')
-      return consentValue
-        && consentValue.includes('behaviouraladsOnsite:on')
-    }
-    
-    const getCookieValue = cookieKey => {
-      const re = new RegExp(`${cookieKey}=([^;]+)`)
-      const match = document.cookie.match(re);
-      if (!match) {
-        // cookie stasis or no cookie found
-        return false
-      }
-      return decodeURIComponent(match[1])
-    }
-    
-    window.addEventListener("load", function () {
-    
-      if (hasConsentedToBehaviouralAds()) {
-        permutive.consent({ "opt_in": true, "token": "behaviouraladsOnsite:on" });
-      } else {
-        const cookieContainer = document.querySelector('.o-cookie-message')
-        const cookieButton = cookieContainer && document.querySelector('.o-cookie-message__button')
-        cookieButton.addEventListener('click', (e) => {
-          permutive.consent({ "opt_in": true, "token": "behaviouraladsOnsite:on" });
-          console.log('clicked')
-        })
-      }
-    });
-  </script><!-- permutive END -->
-  <link rel="stylesheet" href="/cms/main1.css?v=1.3">
+   <link rel="stylesheet" href="/cms/main1.css?v=1.3">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
@@ -356,9 +325,9 @@
                 </div>
               </div>
             </article>
-			<section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-			  <!-- 视频将在点击标签时动态加载 -->
-			</section>
+		<section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
+		  <!-- 视频将在点击标签时动态加载 -->
+		</section>
 			</section>
             <section class="section">
               <div class="container-lg">
