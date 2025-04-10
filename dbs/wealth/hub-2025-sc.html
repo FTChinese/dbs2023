@@ -325,9 +325,9 @@
                 </div>
               </div>
             </article>
-		<section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-		  <!-- 视频将在点击标签时动态加载 -->
-		</section>
+			<section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
+			  <div id="videoContainer"></div>
+			</section>
 			</section>
             <section class="section">
               <div class="container-lg">
@@ -1164,30 +1164,24 @@
   <script src="/cms/main.js"></script>
   
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const globalTab = document.querySelector('[data-tab="global"]');
 
   if (!globalTab) return;
 
   globalTab.addEventListener("click", function () {
     const wrapper = document.getElementById("ccvideoWrapper");
-    if (wrapper) {
-      // 先清空内容，避免重复加载
-      wrapper.innerHTML = '';
-      
-      // 创建新的脚本元素
-      const script = document.createElement('script');
-      script.src = "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
-      script.type = "text/javascript";
-      
-      // 先显示容器
+    const container = document.getElementById("videoContainer");
+    
+    if (wrapper && container) {
+      // 显示容器
       wrapper.style.opacity = "1";
       wrapper.style.height = "auto";
       wrapper.style.overflow = "visible";
       wrapper.style.pointerEvents = "auto";
       
-      // 添加脚本到DOM
-      wrapper.appendChild(script);
+      // 创建iframe
+      container.innerHTML = '<iframe src="https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true" width="100%" height="608" frameborder="0" allowfullscreen></iframe>';
     }
   });
 });
