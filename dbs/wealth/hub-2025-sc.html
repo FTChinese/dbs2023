@@ -358,7 +358,7 @@
             </article>
 
 <section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-  <div id="videoContainer" style="width:100%; height:600px;"></div>
+  <!-- 这里不需要预先放置script标签，它会通过JavaScript动态添加 -->
 </section>
             <section class="section">
               <div class="container-lg">
@@ -1242,25 +1242,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!globalTab) return;
 
-  let videoLoaded = false;
-  
   globalTab.addEventListener("click", function () {
     const wrapper = document.getElementById("ccvideoWrapper");
-    const container = document.getElementById("videoContainer");
-    
-    if (wrapper && container) {
-      // 显示容器
+    if (wrapper) {
+      // 先清空内容，避免重复加载
+      wrapper.innerHTML = '';
+      
+      // 创建新的脚本元素
+      const script = document.createElement('script');
+      script.src = "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
+      script.type = "text/javascript";
+      
+      // 先显示容器
       wrapper.style.opacity = "1";
       wrapper.style.height = "auto";
       wrapper.style.overflow = "visible";
       wrapper.style.pointerEvents = "auto";
       
-      // 只在第一次点击时加载视频
-      if (!videoLoaded) {
-        // 创建iframe加载独立的视频页面
-        container.innerHTML = '<iframe src="video-page.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>';
-        videoLoaded = true;
-      }
+      // 添加脚本到DOM
+      wrapper.appendChild(script);
     }
   });
 });
