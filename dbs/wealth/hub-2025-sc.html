@@ -358,7 +358,7 @@
             </article>
 
 <section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-  <div id="videoContainer" style="text-align:center;"></div>
+  <div id="videoContainer" style="width:100%; height:600px;"></div>
 </section>
             <section class="section">
               <div class="container-lg">
@@ -1237,7 +1237,7 @@
   <script src="/cms/main.js"></script>
   
   <script>
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const globalTab = document.querySelector('[data-tab="global"]');
 
   if (!globalTab) return;
@@ -1257,28 +1257,13 @@
       
       // 只在第一次点击时加载视频
       if (!videoLoaded) {
-        // 使用Bokecc提供的iframe代码
-        container.innerHTML = '<iframe id="cciframe_946D0DB0ADBDBC83753C612EB38A8D5A" src="https://p.bokecc.com/playhtml.bo?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&playerid=3571A3BF2AEC8829&playertype=1" frameborder="0" height="608" width="100%" allowfullscreen></iframe>';
+        // 创建iframe加载独立的视频页面
+        container.innerHTML = '<iframe src="video-page.html" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>';
         videoLoaded = true;
       }
     }
   });
-  
-  // 添加监听其他标签点击，确保切换标签时隐藏视频
-  const otherTabs = document.querySelectorAll('.tab__item:not([data-tab="global"])');
-  otherTabs.forEach(tab => {
-    tab.addEventListener("click", function() {
-      const wrapper = document.getElementById("ccvideoWrapper");
-      if (wrapper) {
-        wrapper.style.opacity = "0";
-        wrapper.style.height = "1px";
-        wrapper.style.overflow = "hidden";
-        wrapper.style.pointerEvents = "none";
-      }
-    });
-  });
 });
-  
   </script>
   
 </body></html>
