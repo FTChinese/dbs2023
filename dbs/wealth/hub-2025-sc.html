@@ -356,9 +356,9 @@
                 </div>
               </div>
             </article>
-<section class="section" id="ccvideoWrapper" style="opacity:0; height:1px; overflow:hidden; pointer-events:none;">
-  <div id="videoContainer" style="width:100%; height:600px;"></div>
-</section>
+            <section class="section">
+				<script src="https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true" type="text/javascript"></script>
+            </section>
 			</section>
             <section class="section">
               <div class="container-lg">
@@ -1193,37 +1193,5 @@
   
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
-  
-  <script>
-document.addEventListener("DOMContentLoaded", function () {
-  const globalTab = document.querySelector('[data-tab="global"]');
-
-  if (!globalTab) return;
-
-  let videoLoaded = false;
-  
-  globalTab.addEventListener("click", function () {
-    const wrapper = document.getElementById("ccvideoWrapper");
-    const container = document.getElementById("videoContainer");
-    
-    if (wrapper && container) {
-      // 显示容器
-      wrapper.style.opacity = "1";
-      wrapper.style.height = "auto";
-      wrapper.style.overflow = "visible";
-      wrapper.style.pointerEvents = "auto";
-      
-      // 只在第一次点击时加载视频
-      if (!videoLoaded) {
-        // 直接使用iframe加载Bokecc的播放器
-        const iframeSrc = "https://p.bokecc.com/playpage.bo?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=100%&height=100%";
-        container.innerHTML = `<iframe src="${iframeSrc}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>`;
-        videoLoaded = true;
-      }
-    }
-  });
-});
-</script>
-
   
 </body></html>
