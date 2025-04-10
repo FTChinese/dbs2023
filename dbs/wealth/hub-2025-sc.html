@@ -356,8 +356,18 @@
                 </div>
               </div>
             </article>
+
             <section class="section">
-				<script src="https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true" type="text/javascript"></script>
+              <div class="element videoblock" id="hubVideo1">
+                <div class="pc-videoBlock">
+                  <div class="container-sm">
+                    <div class="pc-videoBlock-wrapper">
+                      <iframe src="https://www.youtube.com/embed/zkeTVEAXeNk?rel=0&amp;amp;autoplay=1&amp;amp;mute=1&amp;amp;t=1s" frameborder="0" allowfullscreen></iframe>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
             <section class="section">
               <div class="container-lg">
@@ -1190,7 +1200,48 @@
     </div>
   </div>
   
+  <script>
+  let ccPlayerLoaded = false;
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const globalTab = document.querySelector('[data-tab="global"]');
+    const tabContents = document.querySelectorAll(".tab__content");
+    const tabButtons = document.querySelectorAll(".tab__item");
+
+    globalTab.addEventListener("click", function () {
+      if (!ccPlayerLoaded) {
+        ccPlayerLoaded = true;
+
+        const container = document.createElement("div");
+        container.id = "ccvideoContainer";
+        document.querySelector("#global .section").prepend(container);
+
+        const script = document.createElement("script");
+        script.src = "https://p.bokecc.com/player?vid=946D0DB0ADBDBC83753C612EB38A8D5A&siteid=922662811F1A49E9&autoStart=true&width=1080&height=608.3&realAutoPlay=true";
+        container.appendChild(script);
+      }
+    });
+
+    // 以下为可选：基础 tab 切换行为（如果你已有其他逻辑可忽略）
+    tabButtons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        const tab = btn.getAttribute("data-tab");
+
+        tabButtons.forEach(b => b.classList.remove("current"));
+        btn.classList.add("current");
+
+        tabContents.forEach(content => {
+          if (content.id === tab) {
+            content.classList.add("current");
+          } else {
+            content.classList.remove("current");
+          }
+        });
+      });
+    });
+  });
+</script>
+
   <script src="/cms/jquery.min.3.6.0.js"></script>
   <script src="/cms/main.js"></script>
-  
 </body></html>
