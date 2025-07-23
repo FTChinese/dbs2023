@@ -608,8 +608,8 @@
 
 @font-face {
     font-family: icomoon;
-    src: url(https://www.ft.com/partnercontent/dbs/wealth/assets/fonts/icomoon.eot?en9otv);
-    src: url(https://www.ft.com/partnercontent/dbs/wealth/assets/fonts/icomoon.eot?en9otv#iefix) format("embedded-opentype"),url(https://www.ft.com/partnercontent/dbs/wealth/assets/fonts/icomoon.ttf?en9otv) format("truetype"),url(https://www.ft.com/partnercontent/dbs/wealth/assets/fonts/icomoon.woff?en9otv) format("woff"),url(https://www.ft.com/partnercontent/dbs/wealth/assets/fonts/icomoon.svg?en9otv#icomoon) format("svg");
+    src: url(/cms/icomoon.eot?en9otv);
+    src: url(/cms/icomoon.eot?en9otv#iefix) format("embedded-opentype"),url(/cms/icomoon.ttf?en9otv) format("truetype"),url(/cms/icomoon.woff?en9otv) format("woff"),url(/cms/icomoon.svg?en9otv#icomoon) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block
@@ -3825,7 +3825,7 @@ hr:before {
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url(https://www.ft.com/partnercontent/dbs/wealth/assets/images/herobanner-hub.jpg)
+    background-image: url(/assets/images/herobanner-hub.jpg)
 }
 
 .herobanner.herobanner--parallax-height150 .herobanner__img {
@@ -4045,7 +4045,7 @@ hr:before {
 .fullbanner .background-container {
     width: 100%;
     height: 100%;
-    background: url(https://www.ft.com/partnercontent/dbs/wealth/assets/images/article2/img-01.jpg) 50% no-repeat;
+    background: url(/assets/images/article2/img-01.jpg) 50% no-repeat;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4095,7 +4095,7 @@ hr:before {
     left: 0;
     top: 0;
     width: 130%;
-    background-image: url(https://ft.com/partnercontent/dbs/wealth/assets/images/img-01-01.jpg)
+    background-image: url(/assets/images/img-01-01.jpg)
 }
 
 .parallaxbanner--top .parallaxbanner__img {
