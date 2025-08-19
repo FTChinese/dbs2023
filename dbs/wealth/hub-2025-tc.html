@@ -237,38 +237,34 @@
   <main class="main" id="content">
   <style>
 	.dbs-hero-align {
-	  max-width: 860px;      /* 控制文字区域宽度，避免太长 */
+	  max-width: 820px;      /* 稍微收紧宽度，让换行更自然 */
 	  margin: 0 auto;
-	  text-align: center;    /* 居中对齐，可改成 left */
+	  text-align: center;
 	}
 
-	/* 主标题、副标题统一做成块级元素 */
-	.dbs-hero-align .herobanner__title,
-	.dbs-hero-align .herobanner__desc {
-	  display: block;
-	  margin: 0;
-	  padding: 0;
-	}
-
-	/* 主标题和副标题之间留合适间距 */
+	/* 主标题 */
 	.dbs-hero-align .herobanner__title {
-	  margin-bottom: 18px;
-	  font-size: clamp(28px, 3.2vw, 44px);
+	  margin: 0 0 20px;
+	  font-size: clamp(30px, 3.3vw, 46px);
 	  line-height: 1.25;
 	  font-weight: 700;
-	  color: #fff;  /* 仅文字颜色，保持清晰 */
+	  color: #fff;
 	}
 
+	/* 副标题 */
 	.dbs-hero-align .herobanner__desc {
-	  font-size: clamp(15px, 1.6vw, 18px);
-	  line-height: 1.6;
-	  color: #eee;  /* 比标题浅一点 */
+	  margin: 0 auto;
+	  font-size: clamp(17px, 1.8vw, 20px);  /* 比之前大一档 */
+	  line-height: 1.8;                      /* 行距稍大，三行更舒服 */
+	  color: #eee;
+	  max-width: 720px;                      /* 再限制一下宽度，避免最后一行只有一两个字 */
+	  text-align: center;
 	}
 
 	/* 小屏优化 */
 	@media (max-width: 768px) {
 	  .dbs-hero-align { max-width: 92vw; }
-	  .dbs-hero-align .herobanner__title { margin-bottom: 12px; }
+	  .dbs-hero-align .herobanner__desc { font-size: 16px; line-height: 1.6; }
 	}
 </style>
     <div class="herobanner herobanner--full herobanner--center herobanner--right herobanner--parallax herobanner--parallax-height150 tab__hero current" id="herolatest">
