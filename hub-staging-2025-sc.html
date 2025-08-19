@@ -235,9 +235,45 @@
     </div>
   </div>
   <main class="main" id="content">
+  <style>
+	.dbs-hero-align {
+	  max-width: 860px;      /* 控制文字区域宽度，避免太长 */
+	  margin: 0 auto;
+	  text-align: center;    /* 居中对齐，可改成 left */
+	}
+
+	/* 主标题、副标题统一做成块级元素 */
+	.dbs-hero-align .herobanner__title,
+	.dbs-hero-align .herobanner__desc {
+	  display: block;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	/* 主标题和副标题之间留合适间距 */
+	.dbs-hero-align .herobanner__title {
+	  margin-bottom: 18px;
+	  font-size: clamp(28px, 3.2vw, 44px);
+	  line-height: 1.25;
+	  font-weight: 700;
+	  color: #fff;  /* 仅文字颜色，保持清晰 */
+	}
+
+	.dbs-hero-align .herobanner__desc {
+	  font-size: clamp(15px, 1.6vw, 18px);
+	  line-height: 1.6;
+	  color: #eee;  /* 比标题浅一点 */
+	}
+
+	/* 小屏优化 */
+	@media (max-width: 768px) {
+	  .dbs-hero-align { max-width: 92vw; }
+	  .dbs-hero-align .herobanner__title { margin-bottom: 12px; }
+	}
+</style>
     <div class="herobanner herobanner--full herobanner--center herobanner--right herobanner--parallax herobanner--parallax-height150 tab__hero current" id="herolatest">
       <div class="herobanner__content">
-        <div class="container-md">
+        <div class="container-md dbs-hero-align">
           <h1 class="herobanner__title">亚洲家族办公室的新焦点</h1>
           <h5 class="herobanner__desc">亚洲家族办公室正在蓬勃发展。他们正在孕育社会资本，将风险转化为机遇。凭借其全球足迹，他们能够追寻那些有望造福当代与未来世代的热爱。</h5>
         </div>
@@ -249,7 +285,7 @@
     <div class="herobanner herobanner--full herobanner--center herobanner--parallax tab__hero" id="heroglobal">
 	
       <div class="herobanner__content">
-        <div class="container-sm">
+        <div class="container-sm dbs-hero-align">
           <h1 class="herobanner__title">亚洲家族办公室全新机遇</h1>
           <h5 class="herobanner__desc">家族办公室在亚洲蓬勃发展，不断为慈善事业注入崭新动力，积极探索回馈社会的新路径。同时他们也在瞬息万变、纷繁复杂的世界中把握创新机遇，以实现稳健的发展。</h5>
         </div>
@@ -273,7 +309,7 @@
         </ul>
       </div>
       <div class="herobanner__content">
-        <div class="container-md">
+        <div class="container-md dbs-hero-align">
           <h1 class="herobanner__title">亚洲家族办公室的新焦点</h1>
           <h5 class="herobanner__desc">亚洲家族办公室正在蓬勃发展。他们正在孕育社会资本，将风险转化为机遇。凭借其全球足迹，他们能够追寻那些有望造福当代与未来世代的热爱。</h5>
         </div>
