@@ -1,5 +1,5 @@
 var nm = `pif-future-of-tourism`;
-var domain = `//pif.ftmailbox.cn`;
+var domain = `//www.ftc-pif.com`;
 var subdomain = domain + `/` + nm + `/`;
 var embededHtml = `<article id="pif-infographic">
     <div class="sections">
