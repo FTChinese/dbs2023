@@ -57,8 +57,10 @@ ul 		{margin:0;}
 
 .inner  {width: 1312px; max-width: 100%; padding: 0 16px; margin: auto}
 
-.article-hero-container     {position: relative; height: 70vh; min-height: 70vh; overflow: hidden; margin-bottom: 100px;}
-.article-hero-container img {position: absolute; object-position: center; object-fit: cover; width: 100%; height: 100%;}
+.article-hero-container     {position: relative; height: calc(100vh - 105px);height: calc(100vh - 105px); display: flex; flex-direction: column; overflow: hidden; margin-bottom: 40px;}
+.article-hero-container img {position: absolute; object-position:bottom center; object-fit: cover; width: 100%; height: 100%;}
+
+.article-hero-image         {flex: 1; position: relative;}
 
 .article-inner,
 .related-articles .inner    {width: 863px; max-width: 100%; padding: 0 30px; margin: 0 auto}
@@ -67,8 +69,12 @@ ul 		{margin:0;}
 
 .article-heading    {text-align: center;}
 
-#tvn-content .article-heading       {margin-bottom: 100px;}
-#tvn-content .article-heading h1    {font-size: 65px; line-height: 1.1em}
+#tvn-content .article-hero-container h1    {font-size: 65px; line-height: 1.1em; text-align: center}
+
+.article-inner-header   {padding:20px 0 30px 0}
+
+
+#tvn-content .article-heading       {margin-bottom: 60px;}
 #tvn-content .article-inner h2      {font-size: 30px; line-height: 1.1em; margin-bottom: 1em; margin-top: 1em}
 
 #tvn-content .standfirst    {margin-top: 25px;}   
@@ -109,7 +115,7 @@ ul 		{margin:0;}
 .btt div    {width: 40px; height: 40px; border:2px solid #707070; border-radius: 40px; display: inline-flex; justify-content: center; align-items: center;}
 
 
-
+.right-head .article-hero-container img {object-position: bottom right;}
 
 
 
