@@ -267,7 +267,7 @@ var styles = [
   "/rua/rua-alharam/assets/styles/main.css"
 ];
 
-var scripts = [`/rua/rua-alharam/assets/scripts/main.js`, `https://www.ft.com/partnercontent/cms/js/main.bundle.js?v=12.0`];
+var scripts = [`/rua/rua-alharam/assets/scripts/main.js`, `/rua/rua-alharam/assets/scripts/main.bundle.js?v=12.0`];
 
 var preconnects = [
   { href: "https://fonts.googleapis.com", crossorigin: false },
