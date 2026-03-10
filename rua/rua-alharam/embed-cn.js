@@ -86,8 +86,8 @@ var embededHtml = `<div class="section-horizontal main">
     <section class="panel panel-alt section-quote-article">
       <div class="quote">
         <div class="quote__content">
-          <h2 class="quote__title">“The essence of Hejazi architecture is permeability of light, of air, of social connection”</h2>
-          <h6 class="quote__footer">ANDREA SCHIATTARELLA, <span class='no-break'>CHIEF EXECUTIVE,</span> SCHIATTARELLA ASSOCIATI</h6>
+          <h2 class="quote__title">“将其简化为风格过于片面，希贾兹建筑的精髓在于光线通透、空气流通与社会连接。我们的目标并非复制罗尚窗，而是理解其背后的设计逻辑。”</h2>
+          <h6 class="quote__footer">ANDREA SCHIATTARELLA, <span class='no-break'>首席执行官,</span> SCHIATTARELLA ASSOCIATI</h6>
         </div>
       </div>
       <article class="article">
@@ -109,7 +109,7 @@ var embededHtml = `<div class="section-horizontal main">
             <div class="col-md-7 col-lg-6">
               <div class="element"> <i class="icon"><img src="/rua/rua-alharam/assets/images/1/icon_rua.svg"></i><i class="icon"><img src="/rua/rua-alharam/assets/images/1/icon_rua.svg"></i>
               </div>
-              <h2 class="mb">探寻麦加的建筑之魂 <span class="no-break">for identity</span></h2>
+              <h2 class="mb">探寻麦加的建筑之魂 <span class="no-break"></span></h2>
             </div>
           </div>
           <div class="row row-bottom">
@@ -142,7 +142,7 @@ var embededHtml = `<div class="section-horizontal main">
             </div>
           </div>
           <div class="architecture__text">
-            <p>Makkah’s architecture reflects its role at the heart of Islam</p>
+            <p>麦加的建筑体现了它作为伊斯兰教核心圣地的地位。</p>
           </div>
         </div>
       </section>
@@ -168,7 +168,7 @@ var embededHtml = `<div class="section-horizontal main">
           <div class="desktop-only"><img class="lazy" src="/rua/rua-alharam/assets/images/1/img-3.jpg" data-src="/rua/rua-alharam/assets/images/1/img-3.jpg" alt="Saudi Pavilion, &lt;br&gt;Osaka Expo 2025" title="Saudi Pavilion, &lt;br&gt;Osaka Expo 2025"></div>
         </div>
         <div class="img-card__desc">
-          <h6>Saudi Pavilion, <br>Osaka Expo 2025</h6>
+          <h6>沙特馆, <br>2025 年大阪世博会</h6>
         </div>
       </div>
     </section>
@@ -204,8 +204,8 @@ var embededHtml = `<div class="section-horizontal main">
     <section class="panel panel-alt section-quote-article">
       <div class="quote">
         <div class="quote__content">
-          <h2 class="quote__title">“Architects need a humanistic, not merely technical, vision of the city”</h2>
-          <h6 class="quote__footer">ANDREA SCHIATTARELLA, CHIEF EXECUTIVE, SCHIATTARELLA ASSOCIATI</h6>
+          <h2 class="quote__title">“建筑师需要的是人文主义视野，而不仅仅是技术理论。”</h2>
+          <h6 class="quote__footer">ANDREA SCHIATTARELLA, 首席执行官, SCHIATTARELLA ASSOCIATI</h6>
         </div>
       </div>
       <article class="article">
@@ -232,7 +232,7 @@ var embededHtml = `<div class="section-horizontal main">
           </div>
           <div class="row row-bottom"> 
             <div class="col-offset-md-6 col-md-6">
-              <p>麦加建筑的未来不应拘泥于简单复刻传统符号或生硬套用设计公式。城市的规划者和建筑师须在多重约束中寻求最优的平衡点：既要尊崇这片土地深厚的精神底蕴，也要满足居民与朝觐者的现实需求，并为未来的人口增长做好准备。</p>
+              <p>麦加建筑的未来不应拘泥于简单复刻传统符号或生硬套用设计公式。城市的规划者和建筑师须在多重约束中寻求最优的平衡点：既要尊崇这片土地深厚的精神底蕴，也要满足居民与朝觐者的现实需求，并为未来的人口增长做好准备。</p>              <p>在这一探寻平衡的过程中，“萨勒曼国王之门”项目承载着重要的时代机遇，其规模之大前所未有，与大清真寺的距离亦得天独厚，有望成为麦加在实现现代发展的同时，守护自身文化身份的典范。</p>
               <p>归根结底，建筑唯有赢得社区尊重，才能在岁月的长河中永葆生机，持久焕彩。在这片千百万人前来追寻心灵归宿的土地上，这份责任，便凝结于每一块石材、每一根钢梁、每一道光影之中。</p>
             </div>
           </div>
