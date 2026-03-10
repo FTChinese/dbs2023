@@ -26,9 +26,10 @@ body:not(.js-focus-visible) :focus, html:not(.js-focus-visible) :focus {
 .pc__share-content,
 .pc__client .pc__client-title,
 .pc__title .pc__client-title,
-.pc__share-more-title,
 .pc__title-content 		{font-family: MetricWeb, sans-serif !important;}
 .pc__disclaimer-content {font-family: MetricWeb, sans-serif !important; font-size: 16px; line-height: 1.5em; color: #333333;}
+
+[class*=col-]:not(.slick-slide) 	{float:none !important}
 
 .o-header__drawer * {font-family: MetricWeb,sans-serif !important;}
 
@@ -43,16 +44,16 @@ ul 		{margin:0;}
 
 .home-icon  {display: none !important}
 
-.tvn-article h1,
-.tvn-article h2,
-.tvn-article h3,
-.tvn-article h4,
-.tvn-article h5,
-.tvn-article h6	{font-weight: 400; font-family: playfair-display, serif;}
-.tvn-article p,
-.tvn-article ul,
-.tvn-article ol, 
-.tvn-article cite {font-family: playfair-display, serif;}
+#tvn-content h1,
+#tvn-content h2,
+#tvn-content h3,
+#tvn-content h4,
+#tvn-content h5,
+#tvn-content h6	{font-weight: 400; font-family: playfair-display, serif;}
+#tvn-content p,
+#tvn-content ul,
+#tvn-content ol, 
+#tvn-content cite {font-family: playfair-display, serif;}
 
 .inner  {width: 1312px; max-width: 100%; padding: 0 16px; margin: auto}
 
@@ -64,46 +65,42 @@ ul 		{margin:0;}
 .article-inner,
 .related-articles .inner    {width: 863px; max-width: 100%; padding: 0 30px; margin: 0 auto}
 
-.article-inner .tvn-btn {margin: 40px 0}
+.article-inner .btn {margin: 40px 0}
 
 .article-heading    {text-align: center;}
 
-.article-hero-container h1    {font-size: 65px; line-height: 1.1em; text-align: center; font-weight: 400; font-family: playfair-display, serif;}
+#tvn-content .article-hero-container h1    {font-size: 65px; line-height: 1.1em; text-align: center}
 
 .article-inner-header   {padding:20px 0 30px 0}
 
 
-.tvn-article .article-heading       {margin-bottom: 60px;}
-.tvn-article .article-inner h2      {font-size: 30px; line-height: 1.1em; margin-bottom: 1em; margin-top: 1em}
+#tvn-content .article-heading       {margin-bottom: 60px;}
+#tvn-content .article-inner h2      {font-size: 30px; line-height: 1.1em; margin-bottom: 1em; margin-top: 1em}
 
-.tvn-article .standfirst    {margin-top: 25px;}   
-.tvn-article .article-inner .standfirst p  {font-family: "open-sans", sans-serif; font-weight: 300; font-size: 24px; line-height: 1.4em}
+#tvn-content .standfirst    {margin-top: 25px;}   
+#tvn-content .article-inner .standfirst p  {font-family: "open-sans", sans-serif; font-weight: 300; font-size: 24px; line-height: 1.4em}
 
-.tvn-article .article-inner p   {font-size: 16px; line-height: 1.5em; margin-bottom: 1em}
+#tvn-content .article-inner p   {font-size: 16px; line-height: 1.5em; margin-bottom: 1em}
 
-.article-inner p a          {text-decoration: underline;}
+.article-inner p a  {text-decoration: underline;}
 .article-inner p a:hover    {text-decoration: none}
 
 .article-image      {margin: 80px 0}
 
-.tvn-btn        {color: #707070; font-family: Open Sans, sans-serif; font-size: 18px; font-weight: 700; border: 2px solid #707070; padding: 15px; display: inline-flex; align-items: center; text-decoration: none !important}
-.tvn-btn:after,
+.btn        {color: #707070; font-family: Open Sans, sans-serif; font-size: 18px; font-weight: 700; border: 2px solid #707070; padding: 15px; display: inline-flex; align-items: center; text-decoration: none !important}
+.btn:after,
 .related-articles .slide span.text-btn:after    {width: 22px; height: 16px; display: block; background-image: url(/_uploads/_assets/icon-chevron.svg); background-size: cover; content: ''; background-position: 50%;}
 
-.tvn-btn:hover  {border-color: #333333; color: #333333}
+.btn:hover  {border-color: #333333; color: #333333}
 
-.related-articles                    {padding: 80px 0}
-.related-articles h3                 {font-size: 55px; margin-bottom: 0.75em; text-align: center; font-weight: 400; font-family: playfair-display, serif;}
-.related-articles h2    {font-size: 35px; margin-bottom: 0.75em; font-weight: 400; font-family: playfair-display, serif;}
+.related-articles                    {padding-bottom: 80px}
+.related-articles h3                 {font-size: 55px; margin-bottom: 0.75em; text-align: center}
+#tvn-content .related-articles h2    {font-size: 35px; margin-bottom: 0.75em}
 
 .related-articles .slide                {text-align: center;}
 .related-articles .slide p              {font-family: Open Sans, sans-serif !important; font-size: 16px; line-height: 1.5em;}
 .related-articles .slide span.text-btn  {font-family: Open Sans, sans-serif !important; font-size: 18px; font-weight: 700; color: #707070; text-transform: uppercase; display: inline-flex; margin-top: 40px;}
 
-/* DELETE WHEN NOT NEEDED */
-.related-carouselx         {display: flex; gap: 40px; justify-content: center}
-.related-articles .inner   {width: 1312px;}
-.related-articles .slide   {width: calc(50% - 20px);}
 
 .panel-image-container          {margin-bottom: 30px; overflow: hidden; position: relative; padding: 28%;}
 .panel-image-container img,
@@ -116,6 +113,7 @@ ul 		{margin:0;}
 
 .btt        {display: flex; flex-direction: column; justify-content: center; align-items: center; font-family: Open Sans, sans-serif; font-weight: 400; font-size: 14px; gap: 8px; margin-bottom: 50px; text-decoration: none !important}
 .btt div    {width: 40px; height: 40px; border:2px solid #707070; border-radius: 40px; display: inline-flex; justify-content: center; align-items: center;}
+
 
 .right-head .article-hero-container img {object-position: bottom right;}
 
