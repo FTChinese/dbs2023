@@ -2494,8 +2494,8 @@ section {
 
 @media only screen and (min-width:450px) {
     .hero h1 {
-        font-size: 100px;
-        line-height: 95px
+        font-size: 112px;
+        line-height: 107px
     }
 }
 
@@ -2508,8 +2508,8 @@ section {
 
 @media only screen and (min-width:451px) and (max-width:620px) {
     .hero h1 {
-        font-size: 112px;
-        line-height: 112px
+        font-size: 124px;
+        line-height: 124px
     }
 }
 
@@ -2522,8 +2522,8 @@ section {
 
 @media only screen and (min-width:621px) and (max-width:767px) {
     .hero h1 {
-        font-size: 134px;
-        line-height: 134px
+        font-size: 146px;
+        line-height: 146px
     }
 }
 
@@ -2579,8 +2579,8 @@ section {
 
 @media only screen and (min-width:768px) {
     .hero h1 {
-        font-size: 134px;
-        line-height: 112px
+        font-size: 146px;
+        line-height: 124px
     }
 }
 
@@ -2658,8 +2658,8 @@ section {
 
 @media only screen and (min-width:1024px) {
     .hero h1 {
-        font-size: 168px;
-        line-height: 168px
+        font-size: 180px;
+        line-height: 180px
     }
 }
 
@@ -2672,8 +2672,8 @@ section {
 
 @media only screen and (min-width:1025px) and (max-width:1100px) {
     .hero h1 {
-        font-size: 162px;
-        line-height: 162px
+        font-size: 174px;
+        line-height: 174px
     }
 }
 
@@ -2686,8 +2686,8 @@ section {
 
 @media only screen and (min-width:1101px) and (max-width:1270px) {
     .hero h1 {
-        font-size: 179px;
-        line-height: 179px
+        font-size: 191px;
+        line-height: 191px
     }
 }
 
@@ -2709,8 +2709,8 @@ section {
 
 @media only screen and (min-width:1280px) {
     .hero h1 {
-        font-size: 202px;
-        line-height: 202px
+        font-size: 214px;
+        line-height: 214px
     }
 }
 
@@ -2733,8 +2733,8 @@ section {
 
 @media only screen and (min-width:1440px) {
     .hero h1 {
-        font-size: 235px;
-        line-height: 235px
+        font-size: 247px;
+        line-height: 247px
     }
 }
 
@@ -2750,8 +2750,8 @@ section {
 
 @media only screen and (min-width:1920px) {
     .hero h1 {
-        font-size: 246px;
-        line-height: 246px
+        font-size: 258px;
+        line-height: 258px
     }
 }
 
@@ -2948,8 +2948,8 @@ section {
 }
 
 .hero h1 {
-    font-size: 96px;
-    line-height: 92px
+    font-size: 108px;
+    line-height: 104px
 }
 
 .hero .hero__title {
@@ -3421,8 +3421,8 @@ body[data-aos-easing=new-easing] [data-aos] {
 }
 
 .article p {
-    font-size: 1.125em;
-    line-height: 1.7
+    font-size: 1.1875em;
+    line-height: 1.75
 }
 
 @media only screen and (min-width:768px) {
