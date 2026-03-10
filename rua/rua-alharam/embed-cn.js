@@ -41,7 +41,7 @@ var embededHtml = `<div class="section-horizontal main">
                   </div>
                 </div>
                 <div class="map__footer"> 
-                  <h5>Saudi Arabia</h5>
+                  <h5>沙特阿拉伯</h5>
                 </div>
               </div>
             </div>
