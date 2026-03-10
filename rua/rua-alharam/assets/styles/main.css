@@ -2492,6 +2492,13 @@ section {
     }
 }
 
+@media only screen and (min-width:450px) {
+    .hero h1 {
+        font-size: 100px;
+        line-height: 95px
+    }
+}
+
 @media only screen and (min-width:451px) and (max-width:620px) {
     .main h1 {
         font-size: 100px;
@@ -2499,10 +2506,24 @@ section {
     }
 }
 
+@media only screen and (min-width:451px) and (max-width:620px) {
+    .hero h1 {
+        font-size: 112px;
+        line-height: 112px
+    }
+}
+
 @media only screen and (min-width:621px) and (max-width:767px) {
     .main h1 {
         font-size: 120px;
         line-height: 120px
+    }
+}
+
+@media only screen and (min-width:621px) and (max-width:767px) {
+    .hero h1 {
+        font-size: 134px;
+        line-height: 134px
     }
 }
 
@@ -2553,6 +2574,13 @@ section {
     }
     .mb {
         margin-bottom: 32px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .hero h1 {
+        font-size: 134px;
+        line-height: 112px
     }
 }
 
@@ -2628,6 +2656,13 @@ section {
     }*/
 }
 
+@media only screen and (min-width:1024px) {
+    .hero h1 {
+        font-size: 168px;
+        line-height: 168px
+    }
+}
+
 @media only screen and (min-width:1025px) and (max-width:1100px) {
     .main h1 {
         font-size: 145px;
@@ -2635,10 +2670,24 @@ section {
     }
 }
 
+@media only screen and (min-width:1025px) and (max-width:1100px) {
+    .hero h1 {
+        font-size: 162px;
+        line-height: 162px
+    }
+}
+
 @media only screen and (min-width:1101px) and (max-width:1270px) {
     .main h1 {
         font-size: 160px;
         line-height: 160px
+    }
+}
+
+@media only screen and (min-width:1101px) and (max-width:1270px) {
+    .hero h1 {
+        font-size: 179px;
+        line-height: 179px
     }
 }
 
@@ -2655,6 +2704,13 @@ section {
     }
     .section-quote-article .article {
         width: 60%
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .hero h1 {
+        font-size: 202px;
+        line-height: 202px
     }
 }
 
@@ -2675,6 +2731,13 @@ section {
     }
 }
 
+@media only screen and (min-width:1440px) {
+    .hero h1 {
+        font-size: 235px;
+        line-height: 235px
+    }
+}
+
 @media only screen and (min-width:1920px) {
     .main {
         overflow-x: hidden
@@ -2682,6 +2745,13 @@ section {
     .main h1 {
         font-size: 220px;
         line-height: 218px
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .hero h1 {
+        font-size: 246px;
+        line-height: 246px
     }
 }
 
@@ -2873,11 +2943,18 @@ section {
     overflow: hidden
 }
 
+.hero .hero-desc-line-wrapper {
+    overflow: visible
+}
+
+.hero h1 {
+    font-size: 96px;
+    line-height: 92px
+}
+
 .hero .hero__title {
     overflow: hidden;
-    color: #f2f2f2;
-    font-size: 1.12em;
-    line-height: 1.05
+    color: #f2f2f2
 }
 
 .hero .hero__title .char,
@@ -2895,7 +2972,8 @@ section {
     color: #f2f2f2;
     z-index: 1;
     margin: 0 0 -4px 0;
-    width: 90%;
+    width: max-content;
+    max-width: none;
     font-family: 'Aime-SemiBold', Aime Trial, serif;
     font-weight: 600;
     white-space: nowrap;
@@ -2938,7 +3016,8 @@ section {
 
 @media only screen and (min-width:768px) {
     .hero .hero__desc {
-        width: 70%;
+        width: max-content;
+        max-width: none;
         margin-bottom: -5px;
     }
     .hero .hero__top {
@@ -2965,7 +3044,8 @@ section {
         height: 100vh;
     }
     .hero .hero__desc {
-        width: 30%
+        width: max-content;
+        max-width: none;
     }
     .hero .hero__top {
         background: url(/rua/rua-alharam/assets/images/hero-bg-top.jpg) repeat-x 0 0;
@@ -2993,7 +3073,8 @@ section {
 
 @media only screen and (min-width:1280px) {
     .hero .hero__desc {
-        width: 25%
+        width: max-content;
+        max-width: none;
     }
 }
 
@@ -3340,8 +3421,8 @@ body[data-aos-easing=new-easing] [data-aos] {
 }
 
 .article p {
-    font-size: 1.0625em;
-    line-height: 1.6
+    font-size: 1.125em;
+    line-height: 1.7
 }
 
 @media only screen and (min-width:768px) {
