@@ -2875,7 +2875,9 @@ section {
 
 .hero .hero__title {
     overflow: hidden;
-    color: #f2f2f2
+    color: #f2f2f2;
+    font-size: 1.12em;
+    line-height: 1.05
 }
 
 .hero .hero__title .char,
@@ -2896,6 +2898,8 @@ section {
     width: 90%;
     font-family: 'Aime-SemiBold', Aime Trial, serif;
     font-weight: 600;
+    white-space: nowrap;
+    word-break: keep-all;
 }
 
 .hero .hero__desc .char {
@@ -3333,6 +3337,11 @@ body[data-aos-easing=new-easing] [data-aos] {
 .article a:not(.btn):hover {
     color: #000;
     text-decoration: underline
+}
+
+.article p {
+    font-size: 1.0625em;
+    line-height: 1.6
 }
 
 @media only screen and (min-width:768px) {
