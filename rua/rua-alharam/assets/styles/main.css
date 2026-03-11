@@ -2976,6 +2976,8 @@ section {
     max-width: none;
     font-family: 'Aime-SemiBold', Aime Trial, serif;
     font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.1;
     white-space: nowrap;
     word-break: keep-all;
 }
