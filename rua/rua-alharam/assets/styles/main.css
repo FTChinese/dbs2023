@@ -3105,6 +3105,26 @@ body[data-aos-easing=new-easing] [data-aos] {
     transform: scale(1)
 }
 
+/* Hero description size override (ensure it beats global h4 rules) */
+.hero .hero__desc {
+    font-size: 39px;
+    line-height: 1.1
+}
+
+@media only screen and (min-width:768px) {
+    .hero .hero__desc {
+        font-size: 39px;
+        line-height: 1.1
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .hero .hero__desc {
+        font-size: 48px;
+        line-height: 1.1
+    }
+}
+
 [data-aos=swipe-down].aos-animate {
     margin-top: 60%;
     transform: scale(.8)
