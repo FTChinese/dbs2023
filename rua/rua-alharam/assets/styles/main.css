@@ -3107,21 +3107,21 @@ body[data-aos-easing=new-easing] [data-aos] {
 
 /* Hero description size override (ensure it beats global h4 rules) */
 .hero .hero__desc {
-    font-size: 39px;
-    line-height: 1.1
+    font-size: 39px !important;
+    line-height: 1.1 !important
 }
 
 @media only screen and (min-width:768px) {
     .hero .hero__desc {
-        font-size: 39px;
-        line-height: 1.1
+        font-size: 39px !important;
+        line-height: 1.1 !important
     }
 }
 
 @media only screen and (min-width:1024px) {
     .hero .hero__desc {
-        font-size: 48px;
-        line-height: 1.1
+        font-size: 48px !important;
+        line-height: 1.1 !important
     }
 }
 
