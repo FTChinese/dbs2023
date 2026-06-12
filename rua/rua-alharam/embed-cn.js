@@ -6,7 +6,7 @@ var embededHtml = `<div class="section-horizontal main">
           <div class="container-lg">
             <div class="hero-title-line-wrapper">
               <h1 class="hero__title hero__title-desktop desktop-only">重塑 </h1>
-              <h1 class="hero__title hero__title-tablet-mobile tablet-mobile">重-<br>塑</h1>
+              <h1 class="hero__title hero__title-tablet-mobile tablet-mobile">重<br>塑</h1>
             </div>
             <div class="hero-desc-line-wrapper">
               <h4 class="hero__desc">建筑：坚守文化传承，适应现代需求</h4>

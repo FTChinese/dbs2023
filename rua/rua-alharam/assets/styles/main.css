@@ -3111,6 +3111,31 @@ body[data-aos-easing=new-easing] [data-aos] {
     line-height: 1.1 !important
 }
 
+@media only screen and (max-width:767px) {
+    .hero h1 {
+        font-size: clamp(86px, 24vw, 108px);
+        line-height: .9
+    }
+
+    .hero .hero__title-tablet-mobile {
+        letter-spacing: 0;
+        white-space: normal
+    }
+
+    .hero .hero__footer .hero__title {
+        right: 0
+    }
+
+    .hero .hero__desc {
+        bottom: 8px;
+        width: calc(100vw - 20px);
+        max-width: calc(100vw - 20px);
+        font-size: clamp(20px, 6vw, 24px) !important;
+        line-height: 1.15 !important;
+        white-space: normal
+    }
+}
+
 @media only screen and (min-width:768px) {
     .hero .hero__desc {
         font-size: 39px !important;

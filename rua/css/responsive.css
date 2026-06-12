@@ -13,15 +13,25 @@
     .article-hero-container {min-height: 50vh; height: 50vh;}
     */
     
-    #tvn-content .article-hero-container h1   {font-size: 30px;}
+    #tvn-content .article-hero-container h1   {font-size: 30px; font-size: clamp(28px, 8vw, 36px);}
     #tvn-content .article-inner .standfirst p   {font-size: 16px;}
 
     .article-hero-container          {margin-bottom: 30px; height: calc(100vh - 145px);}
+    .article-inner,
+    .related-articles .inner         {padding-left: 20px; padding-right: 20px;}
+    .article-inner-header            {padding: 18px 20px 26px;}
+    .article-image                   {margin: 45px 0;}
     #tvn-content .article-heading    {margin-bottom: 50px;}
+    #tvn-content .article-inner h2   {font-size: 24px; line-height: 1.2em;}
 
     #tvn-content .related-articles h2   {font-size: 25px;}
 
+    .related-articles        {padding: 55px 0 25px;}
     .related-articles h3    {font-size: 30px; margin-bottom: 0.9em}
+    .related-carouselx      {display: block;}
+    .related-articles .slide {width: 100%; margin-bottom: 45px;}
+    .related-articles .slide:last-child {margin-bottom: 0;}
+    .related-articles .slide span.text-btn {margin-top: 18px;}
 
     .article-inner .btn {margin: 80px auto;}
 
