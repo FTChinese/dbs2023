@@ -1,0 +1,372 @@
+/* 
+FONTS
+
+IvyOra Display
+
+font-family: "ivyora-display", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "ivyora-display", serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "ivyora-display", serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: "ivyora-display", serif;
+font-weight: 500;
+font-style: italic;
+
+IvyOra Text
+
+font-family: "ivyora-text", serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "ivyora-text", serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "ivyora-text", serif;
+font-weight: 500;
+font-style: normal;
+
+font-family: "ivyora-text", serif;
+font-weight: 500;
+font-style: italic;
+*/
+
+.htsi .content-element__content {
+  margin: unset;
+}
+
+.htsi .content-element__content li, .htsi .content-element__content p, .htsi .content-element__content ul {
+  font-family: "ivyora-text", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #111;
+}
+
+.htsi .htsi-page h1 {
+  font-family: "ivyora-display", serif;
+}
+
+.htsi .htsi-page h2 {
+  font-family: "ivyora-text", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: unset;
+}
+
+.hero-section {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  align-content: start;
+}
+
+.hero-section__media {
+  order: 1;
+  height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.hero-section__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.hero-section__content {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px 52px;
+}
+
+.hero-section__content-inner {
+  max-width: 460px;
+  text-align: center;
+}
+
+.hero-section__title {
+  margin: 0;
+  color: #111;
+  font-family: "ivyora-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.hero-section__divider {
+  display: block;
+  width: 96px;
+  margin: 38px auto 34px;
+  border-top: 2px solid #111;
+}
+
+.hero-section__dek {
+  margin: 0 auto;
+  max-width: 488px;
+  color: #111;
+  font-family: "ivyora-text", serif;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: 1.24;
+}
+
+.quoteBlock {
+  margin: unset;
+}
+
+.quoteBlock-content-quote h2 {
+  max-width: 640px;
+  padding: 56px 0;
+}
+
+.divider hr {
+  margin: unset;
+  border: unset;
+  border-top: 1px solid #111;
+}
+
+.space {
+  height: 64px;
+}
+
+.space-alt {
+  height: 76px;
+}
+
+.cluster {
+  padding: 64px 0;
+}
+
+.cluster__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cta-section {
+  background-color: #fff;
+  padding: 12px 24px 60px;
+}
+
+.cta-section__inner {
+  margin: 0 auto;
+  max-width: 760px;
+  text-align: center;
+}
+
+.cta-section__title {
+  margin: 0;
+  color: #111;
+  font-family: "ivyora-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 1.06;
+}
+
+.cta-section__copy {
+  margin: 18px auto 0;
+  max-width: 540px;
+  color: #111;
+  font-family: "ivyora-text", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+.cta-section__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  min-width: 164px;
+  min-height: 48px;
+  padding: 0 22px;
+  border: 1px solid #111;
+  background-color: #111;
+  color: #fff;
+  font-family: "neue-haas-grotesk-text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.cta-section__button:hover,
+.cta-section__button:focus-visible {
+  background-color: #fff;
+  color: #111;
+  border-color: #111;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    grid-template-rows: auto auto;
+  }
+
+  .hero-section__content {
+    padding: 56px 30px 72px;
+  }
+
+  .hero-section__media {
+    height: 620px;
+    max-height: 620px;
+  }
+
+  .hero-section__content-inner {
+    max-width: 680px;
+  }
+
+  .hero-section__title {
+    font-size: 62px;
+  }
+
+  .hero-section__dek {
+    font-size: 24px;
+    line-height: 1.22;
+  }
+
+  .hero-section__divider {
+    width: 120px;
+  }
+
+  .quoteBlock-content-quote h2 {
+    font-size: 48px;
+    max-width: 700px;
+  }
+
+  .space {
+    height: 80px;
+  }
+
+  .space-alt {
+    height: 92px;
+  }
+
+  .cluster {
+    margin: 0 auto;
+    padding: 80px 15px;
+    max-width: 1280px;
+  }
+
+  .cta-section {
+    padding: 12px 30px 72px;
+  }
+
+  .cta-section__title {
+    font-size: 46px;
+    line-height: 1.05;
+  }
+
+  .cta-section__copy {
+    margin-top: 20px;
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 1.28;
+  }
+
+  .cta-section__button {
+    margin-top: 34px;
+    min-width: 176px;
+    min-height: 52px;
+    padding: 0 26px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    margin: 0 auto 80px;
+    max-width: 2048px;
+    min-height: 0;
+    height: min(calc(100svh - 96px), 900px);
+    max-height: 900px;
+    grid-template-columns: minmax(440px, 1fr) minmax(440px, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .hero-section__media {
+    order: 2;
+    height: 100%;
+    max-height: 900px;
+  }
+
+  .hero-section__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .hero-section__content {
+    order: 1;
+    align-items: center;
+    max-height: 900px;
+    padding: 120px 48px;
+  }
+
+  .hero-section__content-inner {
+    max-width: 560px;
+  }
+
+  .hero-section__title {
+    font-size: 80px;
+  }
+
+  .hero-section__divider {
+    width: 120px;
+    margin: 56px auto 54px;
+  }
+
+  .hero-section__dek {
+    font-size: 24px;
+    line-height: 1.18;
+  }
+
+  .cluster {
+    padding: 80px 30px;
+  }
+
+  .cta-section {
+    padding: 12px 48px 80px;
+  }
+
+  .cta-section__title {
+    font-size: 46px;
+  }
+
+  .cta-section__copy {
+    margin-top: 22px;
+    max-width: 540px;
+    font-size: 18px;
+    line-height: 1.26;
+  }
+
+  .cta-section__button {
+    margin-top: 38px;
+    min-width: 188px;
+    min-height: 56px;
+    font-size: 16px;
+  }
+}
