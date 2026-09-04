@@ -3208,16 +3208,16 @@ html:after {
 	vertical-align: baseline;
 	width: 20px;
 	height: 20px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23000000,%23000000&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-down.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-footer--theme-light .o-footer__matrix-title[aria-expanded]:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-footer--theme-light .o-footer__matrix-title[aria-expanded]:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 .o-footer--theme-dark .o-footer__matrix-title[aria-expanded]:after {
@@ -3229,16 +3229,16 @@ html:after {
 	vertical-align: baseline;
 	width: 20px;
 	height: 20px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-down.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-footer--theme-dark .o-footer__matrix-title[aria-expanded]:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-footer--theme-dark .o-footer__matrix-title[aria-expanded]:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 .o-footer__matrix-title[aria-expanded='true']:after {
@@ -3296,18 +3296,18 @@ html:after {
 	vertical-align: baseline;
 	width: 20px;
 	height: 20px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 	vertical-align: middle;
 	content: ' ';
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-footer--theme-light {
@@ -3334,16 +3334,16 @@ html:after {
 .o-footer--theme-light .o-footer__external-link a:after {
 	width: 20px;
 	height: 20px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-footer--theme-light .o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-footer--theme-light .o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-footer--theme-light .o-footer__copyright {
@@ -3377,16 +3377,16 @@ html:after {
 .o-footer--theme-dark .o-footer__external-link a:after {
 	width: 20px;
 	height: 20px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-footer--theme-dark .o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-footer--theme-dark .o-footer__external-link a:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-footer--theme-dark .o-footer__copyright {
@@ -3558,29 +3558,29 @@ html:after {
 	margin-left: -10px;
 }
 .o-header__top-link--menu:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_hamburger.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__top-link--menu:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_hamburger.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__top-link--menu:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 .o-header__top-link--search:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_search.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__top-link--search:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__top-link--search:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 @media (max-width: 61.24em) {
@@ -3589,18 +3589,18 @@ html:after {
 	}
 }
 .o-header__top-link--myft:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/ftlogo_brand-myft.svg);
 	width: 35px;
 	margin-top: 0;
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__top-link--myft:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/ftlogo_brand-myft.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__top-link--myft:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/ftlogo_brand-myft.svg);
 	}
 }
 @media (min-width: 46.25em) {
@@ -3627,7 +3627,7 @@ html:after {
 	white-space: nowrap;
 }
 .o-header__top-logo {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	width: 200px;
 	height: 16px;
 	display: block;
@@ -3639,12 +3639,12 @@ html:after {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__top-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__top-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 @media (min-width: 30.625em) {
@@ -3767,7 +3767,7 @@ html:after {
 	vertical-align: baseline;
 	width: 15px;
 	height: 15px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%230A5E66,%230A5E66&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 	content: '';
 	position: relative;
 	top: 0.125em;
@@ -3775,12 +3775,12 @@ html:after {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__subnav-list--breadcrumb .o-header__subnav-item:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__subnav-list--breadcrumb .o-header__subnav-item:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-header__subnav-list--breadcrumb .o-header__subnav-item:first-child:before {
@@ -3849,7 +3849,7 @@ html:after {
 	background-position: 50%;
 	background-color: transparent;
 	vertical-align: baseline;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 	background-color: #e6d9ce;
 	position: absolute;
 	top: 0;
@@ -3862,12 +3862,12 @@ html:after {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__subnav-button {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__subnav-button {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-left?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-header__subnav-button:hover {
@@ -4019,19 +4019,19 @@ html:after {
 	vertical-align: baseline;
 	width: 40px;
 	height: 40px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_cross.svg);
 	border: 0;
 	margin-left: 14px;
 	vertical-align: middle;
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__search-close {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_cross.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__search-close {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_cross.svg);
 	}
 }
 .o-header__search-close:focus,
@@ -4354,7 +4354,7 @@ html:after {
 	color: #33302e;
 }
 .o-header__drawer-tools-logo {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_cross.svg);
 	display: inline-block;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -4364,12 +4364,12 @@ html:after {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__drawer-tools-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__drawer-tools-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 .o-header__drawer-tools-close {
@@ -4381,7 +4381,7 @@ html:after {
 	vertical-align: baseline;
 	width: 40px;
 	height: 40px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%2333302E,%2333302E&format=svg);
+	background-image: url(/cms/fticon-v1_cross.svg);
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	float: right;
@@ -4392,12 +4392,12 @@ html:after {
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__drawer-tools-close {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_cross.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__drawer-tools-close {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_cross.svg);
 	}
 }
 .o-header__drawer-tools-close:focus,
@@ -4494,18 +4494,18 @@ html:after {
 	vertical-align: baseline;
 	width: 25px;
 	height: 25px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_search.svg);
 	content: '';
 	margin-top: -6px;
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__drawer-search-submit:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__drawer-search-submit:after {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 .o-header__drawer-menu {
@@ -4593,16 +4593,16 @@ html:after {
 	vertical-align: baseline;
 	width: 25px;
 	height: 25px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-down.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__drawer-menu-toggle--selected:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__drawer-menu-toggle--selected:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 .o-header__drawer-menu-toggle--unselected {
@@ -4617,16 +4617,16 @@ html:after {
 	vertical-align: baseline;
 	width: 25px;
 	height: 25px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%230A5E66,%230A5E66&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-down.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__drawer-menu-toggle--unselected:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__drawer-menu-toggle--unselected:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-down?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-down.svg);
 	}
 }
 .o-header__drawer-menu-link {
@@ -4738,18 +4738,18 @@ html:after {
 	vertical-align: baseline;
 	width: 15px;
 	height: 15px;
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23990F3D,%23990F3D&format=svg);
+	background-image: url(/cms/fticon-v1_arrow-right.svg);
 	vertical-align: text-top;
 	content: '';
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header__mega-column--articles .o-header__mega-item:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header__mega-column--articles .o-header__mega-item:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_arrow-right.svg);
 	}
 }
 .o-header__mega-column--articles .o-header__mega-link {
@@ -4875,55 +4875,55 @@ html:after {
 	border-bottom-color: rgba(255, 255, 255, 0.4);
 }
 .o-header--transparent .o-header__top-link--menu:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_hamburger.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header--transparent .o-header__top-link--menu:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_hamburger.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header--transparent .o-header__top-link--menu:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_hamburger.svg);
 	}
 }
 .o-header--transparent .o-header__top-link--search:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/fticon-v1_search.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header--transparent .o-header__top-link--search:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header--transparent .o-header__top-link--search:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/fticon-v1_search.svg);
 	}
 }
 .o-header--transparent .o-header__top-link--myft:before {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/ftlogo_brand-myft.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header--transparent .o-header__top-link--myft:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/ftlogo_brand-myft.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header--transparent .o-header__top-link--myft:before {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/ftlogo_brand-myft.svg);
 	}
 }
 .o-header--transparent .o-header__top-logo {
-	background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23FFFFFF,%23FFFFFF&format=svg);
+	background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 }
 @media screen and (-ms-high-contrast: active) {
 	.o-header--transparent .o-header__top-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23ffffff,%23ffffff&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 @media screen and (-ms-high-contrast: black-on-white) {
 	.o-header--transparent .o-header__top-logo {
-		background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=build-service&tint=%23000000,%23000000&format=svg);
+		background-image: url(/cms/ftlogo_brand-ft-masthead.svg);
 	}
 }
 .o-header--transparent .o-header__nav-button {
